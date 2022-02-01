@@ -36,3 +36,31 @@ nav li a:hover{
     max-height: 72px;
     max-width: 250px;
 }
+
+.column {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+    -webkit-columns: 250px 3;
+    -moz-columns: 250px 3;
+    column-gap: 40px;
+    columns: 250px 3;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.service_b{
+    font-weight: bold;
+    margin-left: -125px;
+}
+u{
+    text-decoration-color: #3796DA;
+}
+
+
+
+/* 
+.paragraphs{
+
+    column-rule: 4px double #ff00ff;
+} */
