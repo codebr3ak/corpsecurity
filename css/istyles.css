@@ -9,6 +9,8 @@ nav ul{
     white-space: nowrap;
     margin: 0 auto;
     text-align: center;
+    color: #0F1E31;
+
 }
 
 nav li{
@@ -16,7 +18,6 @@ nav li{
     width: 18%;
     text-align: center;
     display: inline-block;
-    color: #0F1E31;
 } 
 
 nav li a{
