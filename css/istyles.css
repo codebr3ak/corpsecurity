@@ -1,0 +1,39 @@
+nav{
+    background: #FBFBFB;
+    padding: 20px;
+    position: sticky;
+    top: 106px;
+    z-index: 1;
+}
+
+nav ul{
+    background: #FBFBFB;
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav li{
+    font-size: 18px;
+    width: 18%;
+    text-align: center;
+    display: inline-block;
+    color: #0F1E31;
+} 
+
+nav li a{
+    text-decoration: none;
+    color: #0F1E31;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    color: #3796DA;
+}
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
