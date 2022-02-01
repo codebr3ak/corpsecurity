@@ -1,5 +1,4 @@
 nav{
-    background: #FBFBFB;
     padding: 20px;
     position: sticky;
     top: 106px;
@@ -7,7 +6,6 @@ nav{
 }
 
 nav ul{
-    background: #FBFBFB;
     white-space: nowrap;
     margin: 0 auto;
     text-align: center;
