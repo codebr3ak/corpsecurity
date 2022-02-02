@@ -140,7 +140,15 @@ u{
     right: -20em;
 }
 
-
+.cameraft{
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 0;
+    top: 120px;
+    right: 40em;
+}
 /* 
 .paragraphs{
 
