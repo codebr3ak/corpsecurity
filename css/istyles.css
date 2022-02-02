@@ -222,3 +222,12 @@ u{
     margin-right: 12em;
     font-size: 12px;
 }
+
+.footer{
+    background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+    width: 100%;
+}
+
+.fut{
+    color: white;
+}
