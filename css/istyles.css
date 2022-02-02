@@ -149,6 +149,10 @@ u{
     top: 120px;
     right: 40em;
 }
+
+.border-right {
+    border-right: 1px solid black;
+}
 /* 
 .paragraphs{
 
