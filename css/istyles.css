@@ -175,13 +175,13 @@ u{
     list-style-type: none;
     text-align: center;
     display: block;
-    right: 43em;
+    right: 47em;
     top: 62em;
 }
 
 .fguard{
     position: absolute;
-    left: 27em;
+    left: 23em;
     top: 66em;
 }
 
@@ -207,4 +207,18 @@ u{
     font-weight: bolder;
     margin-left: 10em;
     margin-right: 10em;
+}
+
+.bluep{
+    color: #3796DA;
+    margin-left: 10em;
+    margin-right: 10em;
+    font-size: 13px;
+}
+
+.blueps{
+    color: #3796DA;
+    margin-left: 12em;
+    margin-right: 12em;
+    font-size: 12px;
 }
