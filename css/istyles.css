@@ -133,6 +133,14 @@ u{
     box-shadow: none;
 }
 
+.imagesb{
+    flex: right;
+    position: absolute;
+    top: -130px;
+    right: -20em;
+}
+
+
 /* 
 .paragraphs{
 
