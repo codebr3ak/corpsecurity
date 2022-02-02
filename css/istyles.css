@@ -153,8 +153,58 @@ u{
 .border-right {
     border-right: 1px solid black;
 }
-/* 
-.paragraphs{
 
-    column-rule: 4px double #ff00ff;
-} */
+#col1 {
+    background: #3796DA;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.csquote{
+    float: right;
+}
+
+.move{
+    margin-top: -16em;
+    list-style-type: none;
+
+}
+
+.guardss{
+    position: absolute;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    right: 43em;
+    top: 62em;
+}
+
+.fguard{
+    position: absolute;
+    left: 27em;
+    top: 66em;
+}
+
+.bullets{
+    list-style-type: none;
+}
+
+.border-right{
+    border-right: 1px solid black;
+}
+
+.parag1{
+    margin-top: 30px;
+    margin-left: 15em;
+    margin-right: 15em;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.parag2{
+    margin-top: 30px;
+    font-weight: bolder;
+    margin-left: 10em;
+    margin-right: 10em;
+}
