@@ -117,6 +117,8 @@ u{
     touch-action: manipulation;
     vertical-align: baseline;
     white-space: nowrap;
+    margin-left: 16em;
+    background-color: #0F1E31;
 }
 
 .button-8 {
