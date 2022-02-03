@@ -84,8 +84,11 @@ u{
     padding: 30px;
     font-size: 38px;
     position: absolute;
-    left: 25px;
+    left: 6em;
     top: 150px;
+    font-weight: bolder;
+    text-decoration-color: #3796DA;
+    text-underline-offset: 10px;
 }
 
 .about_b{
@@ -271,9 +274,12 @@ u{
 }
 
 .footer{
+    /* position: fixed; */
     background-image: url("../assets/models/bkg\ partern\ 4.jpg");
     width: 100%;
     margin-top: 8.2em;
+    left: 0;
+    bottom: 0;
 }
 
 .fut{
