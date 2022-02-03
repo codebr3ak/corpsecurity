@@ -88,6 +88,23 @@ u{
     top: 150px;
 }
 
+.about_b{
+    color: #3796DA;
+    padding: 30px;
+    font-size: 38px;
+    position: absolute;
+    left: 6em;
+    margin-top: 160px;
+    font-weight: bolder;
+    text-decoration-color: #3796DA;
+    text-underline-offset: 10px;
+    /* text-decoration-thickness:em; */
+}
+
+.underline{
+    text-decoration-line: underline;
+}
+
 .banner_org{
     background-image: url("../assets/models/bkg\ partern\ 4.jpg");
     margin-top: -90px;
