@@ -1,3 +1,8 @@
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 nav{
     padding: 20px;
     position: sticky;
@@ -57,6 +62,16 @@ u{
     bottom: 12;
     position: relative;
 }
+
+.banner_org{
+    background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+    background-size: 600px 350px;
+    height: 510px;
+    padding-bottom: 590px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .banner img{
     max-width: 100%;
     max-height: 100%;
@@ -65,18 +80,21 @@ u{
 .images{
     text-align: center;
     margin-top: 100px;
-    margin: 80px 0;
+    margin: 80px 20px;
     white-space: nowrap;
     margin-right: -400px;
+    list-style-type: none;
 }
 
 .images li{
     display: inline-block;
     list-style-type: none;
-    width: 2%;
+    width: 5%;
     margin: 20px 5%;
     position: relative;
     margin-left: 25px;
+    /* right: 9px; */
+    left: -15%;
 }
 
 .service_b{
@@ -108,10 +126,10 @@ u{
     text-decoration-line: underline;
 }
 
-.banner_org{
+/* .banner_org{
     background-image: url("../assets/models/bkg\ partern\ 4.jpg");
     margin-top: -90px;
-}
+} */
 
 .button-7 {
     background-color: #0095ff;
@@ -200,6 +218,23 @@ u{
     right: 40em;
 }
 
+.flex-container {
+    display: flex;
+    /* background-color: DodgerBlue; */
+    width: 50%;
+    list-style-type: none;
+}
+
+.colimgs{
+    width: 40%;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
 .border-right {
     border-right: 1px solid black;
 }
@@ -280,8 +315,10 @@ u{
     margin-top: 8.2em;
     left: 0;
     bottom: 0;
+    background-size: 600px 450px;
 }
 
 .fut{
     color: white;
 }
+
