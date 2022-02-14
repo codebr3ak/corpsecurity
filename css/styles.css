@@ -1,0 +1,435 @@
+nav{
+    padding: 4px;
+    position: sticky;
+    z-index: 1;
+    padding-bottom: 57px;
+    margin-bottom: -40px;
+}
+
+nav ul{
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+    color: #0F1E31;
+
+}
+
+nav li{
+    font-size: 18px;
+    width: 19%;
+    text-align: center;
+    display: inline-block;
+} 
+
+nav li a{
+    text-decoration: none;
+    color: #0F1E31;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    color: #3796DA;
+}
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
+.column1 {
+    font-size: 17px;
+    text-align: left ;
+    margin-left: 70px;
+    display: flex;
+}
+
+.column2 {
+    font-size: 17px;
+    margin-left: 70px;
+    display: flex;
+}
+
+u{
+    text-decoration-color: #3796DA;
+}
+
+
+
+.images1{
+    text-align: center;
+    margin-top: 10px;
+    margin: 80px 20px;
+    white-space: nowrap;
+    margin-right: 700px;
+    margin: 1px;
+}
+
+.images1 li{
+    width: 2%;
+    margin: 30px 5%;
+    position: relative;
+    margin-left: 230px;
+}
+
+.service_b{
+    color: #3796DA;
+    padding: 30px;
+    font-size: 38px;
+    position: absolute;
+    left: 25px;
+    top: 150px;
+}
+.row{
+    padding-top: 50px;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+.banner_org{
+    background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+    background-size: 600px 350px;
+    height: 510px;
+    padding-bottom: 590px;
+    
+}
+
+.banner{
+    bottom: 10;
+    position: relative;
+    
+}
+.banner img{
+    max-width: 100%;
+    max-height: 95%;
+    
+    
+}
+
+
+
+
+.button-7 {
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.button-8 {
+    background-color: #0F1E31;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    margin-left: 16em;
+    /* margin-right: 10em; */
+}
+
+.button-7:hover,
+.button-7:focus {
+    background-color: #07c;
+}
+
+.button-7:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+    background-color: #0064bd;
+    box-shadow: none;
+}
+
+.imagesb{
+    flex: right;
+    position: absolute;
+    top: -130px;
+    right: -20em;
+}
+
+.cameraft{
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 0;
+    top: 120px;
+    right: 40em;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
+
+#col1 {
+    background: #3796DA;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.csquote{
+    float: right;
+}
+
+.move{
+    margin-top: -16em;
+    list-style-type: none;
+
+}
+
+.guardss{
+    position: absolute;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    right: 47em;
+    top: 62em;
+}
+
+.fguard{
+    position: absolute;
+    left: 23em;
+    top: 66em;
+}
+
+.bullets{
+    list-style-type: none;
+}
+
+.border-right{
+    border-right: 1px solid black;
+}
+
+.parag1{
+    margin-top: 30px;
+    margin-left: 15em;
+    margin-right: 15em;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.parag2{
+    margin-top: 30px;
+    font-weight: bolder;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.bluep{
+    color: #3796DA;
+    margin-left: 10em;
+    margin-right: 10em;
+    font-size: 13px;
+}
+
+.blueps{
+    color: #3796DA;
+    margin-left: 12em;
+    margin-right: 12em;
+    font-size: 12px;
+}
+
+.footer{
+    background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+    width: 100%;
+    background-size: 600px 450px;
+    margin-top: 8.2em;
+    
+}
+
+.fut{
+    color: white;
+    padding-top: 23px;
+}
+.booking{
+    text-align: justify;
+    height: 520px;
+    background: #b7babd;
+    border:#000000;
+    color: black;
+    padding-bottom: 445px;
+    margin-top: 19px;
+    margin-left: 55px;
+    width: 500px;
+    padding: 50px;
+    float: right;
+    padding-top: 18px;
+    margin-right: 57px;
+
+  
+}
+button:hover,
+button:focus {
+    background-color: #3796da;
+}
+button {
+    height: 34px;
+    background: #0f1e31;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    width: 167px;
+    margin-left: 21px;
+    padding-top: 5px;
+    padding: 4px;
+  }
+ 
+
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding-left: 12px;
+    margin-block-start: 12px;
+    margin-inline-start: 5%;
+    padding-top: 6px;
+    padding: 13px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 100%;
+    display: inline-block;
+  }
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  .contact{
+    text-align: justify;
+    height: 330px;
+    background: hsl(0, 9%, 85%);
+    border:#3796DA;
+    color: black;
+    padding-bottom: 445px;
+    margin-top: 19px;
+    margin-left: 553px;
+    width: 500px;
+    padding: 50px;
+    float: right;
+    padding-top: 18px;
+    margin-right: 67px;
+  }
+  .map{
+      margin-left: 10px;
+  }
+  .container{
+      padding-bottom: 1px;
+  }
+ 
+.h_line{
+    height: 0.5px;
+    background: #0f1e31;
+    width: 69px;
+    margin-left: 21px;
+    padding: 1px;
+    display:inline-block;
+    padding-top: 1px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
