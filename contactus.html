@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
-<body>
+<body class="body">
         <!-- Navigation bar -->
         <div class="container">
             <div class="navbar-header">
@@ -19,7 +19,7 @@
                 <a class="navbar-brand" href="./index.html"><img src="./assets/logos/csLOGOmain.png" class="img-responsive" alt="logo"/></a>               
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="aboutus.html">ABOUT US</a></li>
-                        <li><a href="services.html">OUR SERVICES</a></li>
+                        <li><a href="service.html">OUR SERVICES</a></li>
                         <li><a href="contactus.html">CONTACT US</a></li>
                         <a href="https://www.facebook.com/"> <img src="./assets/icons/104458_facebook_social media_fb_social_icon.png" alt="facebook icon"></a>
                         <a href="https://www.twitter.com/"> <img src="./assets/icons/2657545_media_social_twitter_website_icon.png" alt="twitter icon"></a>
@@ -44,24 +44,20 @@
 
         <section>
             <div class="booking">
-                <form action="reservation.php" method="post">
+                <form action="reservation.php" method="post"><br>
                     <div class="elem-group">
-                    <label for="name">Your Name</label>
                     <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
                     </div>
                     <iv class="elem-group">
-                    <label for="phone">Your Phone</label>
                     <input type="tel" id="phone" name="visitor_phone" placeholder="+254 712 345 678" required>
                     </iv>
                 
                     <div class="elem-group">
-                        <label for="email">Your E-mail</label>
                         <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
                     </div>        
                     <div class="elem-group">
-                    <label for="message">Message</label>
                     <textarea id="message" name="visitor_message" placeholder="Type your message here" required></textarea>
-                    </div>
+                    </div><br> 
                     <button type="submit">Send</button>
                 </form>
             </div>
@@ -107,13 +103,13 @@
 
                 <div class="contact">
                     <form action="reservation.php" method="post">
-                        <div class="elem-group">
+                        <div class="elem-group2">
                         <input type="text" id="name" name="visitor_name" placeholder="Name" pattern=[A-Z\sa-z]{3,20} required>
                         </div>
-                        <div class="elem-group">
+                        <div class="elem-group2">
                             <input type="email" id="email" name="visitor_email" placeholder="E-mail" required>
                         </div>        
-                        <div class="elem-group">
+                        <div class="elem-group2">
                         <textarea id="message" name="visitor_message" placeholder="Type your message here" required></textarea>
                         </div>
                         <button type="submit">Send</button>
@@ -127,7 +123,7 @@
 
         <!-- Map -->
         <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8190933789224!2d36.813837414754005!3d-1.2823370990646983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1f6987718f3f%3A0xd3aa6057282f51be!2sHazina%20Towers%20-%20Nairobi!5e0!3m2!1sen!2ske!4v1643907571277!5m2!1sen!2ske" width="1480" height="600" style="border:0;" allowfullscreen="" loading="lazy" margin-left:10px;></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8190933789224!2d36.813837414754005!3d-1.2823370990646983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1f6987718f3f%3A0xd3aa6057282f51be!2sHazina%20Towers%20-%20Nairobi!5e0!3m2!1sen!2ske!4v1643907571277!5m2!1sen!2ske" width="1780" height="700" style="border:0;" allowfullscreen="" loading="lazy" margin-left:10px;></iframe>
         </div>
         <!-- Map-->
 
@@ -143,7 +139,7 @@
                 <a class="navbar-brand" href="./index.html"><img src="./assets/logos/csLOGO_outlined_to_put_on_darkbackgrounds.png" class="img-responsive" alt="logo"/></a>               
                         <li><a href="index.html"></a>HOME</li>
                         <li><a href="aboutus.html"></a>ABOUT US</li>
-                        <li><a href="our_servies"></a>OUR SERVICES</li>
+                        <li><a href="service.html"></a>OUR SERVICES</li>
                         <li><a href="contactus.html"></a>CONTACT US</li>
                         <a href="https://www.facebook.com/"> <img src="./assets/icons/104458_facebook_social media_fb_social_icon.png" alt="facebook icon"></a>
                         <a href="https://www.twitter.com/"> <img src="./assets/icons/2657545_media_social_twitter_website_icon.png" alt="twitter icon"></a>
@@ -153,6 +149,5 @@
             </div>   
         </div>
     </footer>
-
 </body>
 </html>

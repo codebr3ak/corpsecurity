@@ -1,8 +1,10 @@
-body{
-    margin-left: 10px;
-    margin-right: 10px;
+
+.body{
     margin: 0;
     padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* max-width: 1600px; */
 }
 
 nav{
@@ -251,6 +253,22 @@ u{
     float: right;
 }
 
+.booking{
+    text-align: justify;
+    height: 520px;
+    background: #b7babd;
+    border:#000000;
+    color: black;
+    padding-bottom: 445px;
+    margin-top: 19px;
+    margin-left: 55px;
+    width: 500px;
+    padding: 50px;
+    float: right;
+    padding-top: 18px;
+    margin-right: 57px;
+}
+
 .move{
     margin-top: -16em;
     list-style-type: none;
@@ -262,13 +280,13 @@ u{
     list-style-type: none;
     text-align: center;
     display: block;
-    right: 47em;
+    right: 44em;
     top: 62em;
 }
 
 .fguard{
     position: absolute;
-    left: 23em;
+    left: 13em;
     top: 66em;
 }
 
