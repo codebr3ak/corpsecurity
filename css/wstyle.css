@@ -212,6 +212,11 @@ margin-top: 12px;
     position: absolute;
     top: -280px;
     right: -20em;
+    list-style-type: none;
+}
+
+.list{
+    list-style-type: none;
 }
 
 .cameraft{
@@ -219,6 +224,7 @@ margin-top: 12px;
     top: 0px;
     margin-left: 289px;
     width: 1133px;
+    list-style-type: none;
 }
 
 .border-right {
