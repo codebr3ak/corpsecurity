@@ -207,6 +207,34 @@ margin-top: 12px;
     box-shadow: none;
 }
 
+.button1{
+    margin-left: 50px;
+}
+
+.par1{
+    position: absolute;
+    flex: left;
+    top: 45em;
+}
+
+.corep{
+    max-width: 15cm;
+    margin-top: 15em;
+    margin-left: 50px;
+}
+
+.coreb{
+    max-width: 15cm;
+    margin-top: 15em;
+    margin-left: 50px;
+}
+
+.par2{
+    margin-top: 10px;
+    position: absolute;
+    flex: left;
+}
+
 .imagesb{
     flex: right;
     position: absolute;
@@ -342,7 +370,7 @@ div.elem-group.inlined input {
     background-image: url("../assets/models/bkg\ partern\ 4.jpg");
     width: 100%;
     background-size: 600px 450px;
-    margin-top: 7em;
+    margin-top: 50em;
     
 }
 
