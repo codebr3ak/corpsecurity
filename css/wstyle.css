@@ -363,9 +363,6 @@ div.elem-group.inlined input {
     display: inline-block;
 }
 
-
-
-
 .footer{
     background-image: url("../assets/models/bkg\ partern\ 4.jpg");
     width: 100%;
@@ -403,10 +400,6 @@ button {
     margin-top: 33px;
     color: white;
 }
-
-
-
-
 
 hr {
     border: 1px dotted #ccc;
