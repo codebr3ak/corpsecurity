@@ -504,7 +504,7 @@ hr {
     background-color: #717171;
 }
 
-.container3
+.container2
         {
             display:flex;
             justify-content:space-evenly;
@@ -521,7 +521,7 @@ hr {
             margin-bottom: 15px;
             border-spacing:0 5px;
             width: 30%;
-            height: 400px;
+            height: 190px;
             background-color: #3796da;
             border: 2px solid black;
             text-align: center;
@@ -532,3 +532,36 @@ hr {
             background-size: 700px 450px;
         }
 
+
+.img-col1{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    width: 373px;
+    padding: 2px;
+    margin-left: 645px;
+    margin-top: 378px;
+    height: 415px;
+    object-fit: cover;
+     }
+
+.img-col2 {
+        display: inline-block;
+        margin: auto;
+        width: 580px;
+        padding: 2px;
+        margin-left: 890px;
+        margin-top: -591px;
+        height: 515px;
+        object-fit: cover;
+         }
+.img-col3 {
+            display: inline-block;
+            margin: auto;
+            width: 560px;
+            padding: 2px;
+            margin-left: 1329px;
+            margin-top: -499px;
+            height: 435px;
+            object-fit: cover;
+             }
