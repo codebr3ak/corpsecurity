@@ -121,7 +121,7 @@ u{
     height: 510px;
     width: 1080px;
     padding-bottom: 590px;
-    margin-left: 690px;
+    margin-left: 670px;
 }
 
 .banner2 {
@@ -243,7 +243,7 @@ margin-top: 12px;
     flex: right;
     position: absolute;
     top: -280px;
-    right: -20em;
+    right: -25em;
     list-style-type: none;
 }
 
@@ -254,8 +254,7 @@ margin-top: 12px;
 .cameraft{
     position: absolute;
     top: 0px;
-    margin-left: 289px;
-    width: 1133px;
+    margin-left: 190px;
     list-style-type: none;
 }
 
