@@ -1,3 +1,7 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 nav{
     padding: 4px;
