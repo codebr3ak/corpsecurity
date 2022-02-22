@@ -514,34 +514,37 @@ hr {
             
            
         }
+        
         .minor_columns
         {
 
             margin-top: 15px;
             margin-bottom: 15px;
             border-spacing:0 5px;
-            width: 30%;
+            width: 31%;
             height: 190px;
             background-color: #3796da;
-            border: 2px solid black;
-            text-align: center;
-            font-weight:bold;
-            color: rgb(50, 53, 205);
-            display: inline;
+            font-weight: bold;
+            color: #3796da;
+            text-align: right;
+            font-size: 50px;
+            line-height: 0.9;
+            word-spacing: 10px;
+            letter-spacing: -4px;
             background-image: url("../assets/models/bkg\ partern\ 4.jpg");
             background-size: 700px 450px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
 
 
 .img-col1{
-    text-align: center;
     display: inline-block;
     margin: auto;
     width: 373px;
     padding: 2px;
-    margin-left: 645px;
-    margin-top: 378px;
-    height: 415px;
+    margin-left: 631px;
+    margin-top: 419px;
+    height: 400px;
     object-fit: cover;
      }
 
@@ -549,19 +552,21 @@ hr {
         display: inline-block;
         margin: auto;
         width: 580px;
-        padding: 2px;
-        margin-left: 890px;
-        margin-top: -591px;
-        height: 515px;
+        margin-left: 867px;
+        margin-top: -521px;
+        height: 490px;
         object-fit: cover;
          }
 .img-col3 {
             display: inline-block;
             margin: auto;
             width: 560px;
-            padding: 2px;
-            margin-left: 1329px;
+            margin-left: 1350px;
             margin-top: -499px;
-            height: 435px;
+            height: 421px;
             object-fit: cover;
              }
+
+.tripple{
+    margin-bottom: -673px;
+}
