@@ -336,7 +336,7 @@ margin-top: 19px;
 }
 
 .booking{
-    height: 517px;
+    height: 450px;
     background: #fbfcfe;
     color: #0f1e31 ;
     margin-left: 55px;
@@ -345,7 +345,7 @@ margin-top: 19px;
     font-weight: bolder;
     font-family: 'Open Sans';
     margin-right: 57px;
-    margin-top: 31px;
+    margin-top: 55px;
     border-radius: 4px;
 }
 .book{
@@ -354,8 +354,6 @@ margin-top: 19px;
     padding-top: 23px;
     text-align: center;
 }
-
-
 
 input, select, textarea {
     border-radius: 4px;
