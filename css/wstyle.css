@@ -237,6 +237,7 @@ margin-top: 12px;
     margin-top: 10px;
     position: absolute;
     flex: left;
+    display: inline-block;
 }
 
 .imagesb{
@@ -503,4 +504,31 @@ hr {
     background-color: #717171;
 }
 
+.container3
+        {
+            display:flex;
+            justify-content:space-evenly;
+            margin-top: 82px;
+            margin-left: 700px;
+            margin-bottom: -600px;
+            
+           
+        }
+        .minor_columns
+        {
+
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-spacing:0 5px;
+            width: 30%;
+            height: 400px;
+            background-color: #3796da;
+            border: 2px solid black;
+            text-align: center;
+            font-weight:bold;
+            color: rgb(50, 53, 205);
+            display: inline;
+            background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+            background-size: 700px 450px;
+        }
 
