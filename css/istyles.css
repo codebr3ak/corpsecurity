@@ -51,17 +51,30 @@ nav li a:hover{
 }
 
 .column {
-    font-size: 17px;
+    font-family: "Myriad Pro";
+    font-size: 19px;
     text-align: justify;
     line-height: 35px;
     -webkit-columns: 250px 3;
     -moz-columns: 250px 3;
-    column-gap: 40px;
+    column-gap: 50px;
     columns: 250px 3;
     margin-left: 75px;
     margin-right: 75px;
-    border: 6px solid green;
-    height: 420px;
+
+    column-rule-width: 2px;
+    column-rule-color: #3796da;
+
+    -webkit-column-rule-style: dotted;
+    -moz-column-rule-style: dotted;
+    column-rule-style: dotted;
+}
+
+.vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 455px;
 }
 
 u{
