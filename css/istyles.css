@@ -239,9 +239,8 @@ u{
     margin: auto;
     width: 50%;
     margin-top: 0;
-    top: 120px;
-    right: 40em;
-}
+    top: 138px;
+    right: 40em;}
 
 .flex-container {
     display: flex;
@@ -305,13 +304,17 @@ u{
     text-align: center;
     display: block;
     right: 44em;
-    top: 62em;
+    top: 68em;
+    height: 555px;
+    object-fit: cover;
 }
 
 .fguard{
     position: absolute;
     left: 13em;
-    top: 66em;
+    top: 68em;
+    height: 554px;
+    object-fit: cover;
 }
 
 .bullets{
@@ -405,6 +408,8 @@ u{
          }
 
 
+
+
 .img-col1{
     display: inline-block;
     width: 373px;
@@ -413,31 +418,32 @@ u{
     margin-top: 459px;
     height: 400px;
     object-fit: cover;
+    position: relative;
      }
 
 .img-col2 {
-        display: inline-block;
-        margin: auto;
-        width: 580px;
-        margin-left: 579px;
-        margin-top: -521px;
-        height: 490px;
-        object-fit: cover;
+    display: inline-block;
+    margin: auto;
+    width: 580px;
+    margin-left: 579px;
+    margin-top: -521px;
+    height: 490px;
+    object-fit: cover;
          }
+         
 .img-col3 {
-            display: inline-block;
-            margin: auto;
-            width: 560px;
-            margin-left: 1020px;
-            margin-top: -499px;
-            height: 421px;
-            object-fit: cover;
-             }
+    display: inline-block;
+    margin: auto;
+    width: 560px;
+    margin-left: 1020px;
+    margin-top: -499px;
+    height: 421px;
+    object-fit: cover;
+          }
 
 .tripple{
     margin-bottom: 3px;
 }
-
 
     h1 {
         font-weight: 300;
@@ -458,3 +464,11 @@ u{
         border-bottom: 4px solid #3796da ;
     }
 
+.navbar-header{
+    margin-top: 16px;
+}
+
+.navbar-header2{
+    margin-bottom: -66px;
+    margin-top: 3px;
+}

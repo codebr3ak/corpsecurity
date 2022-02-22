@@ -18,7 +18,8 @@ nav{
     position: sticky;
     z-index: 1;
     padding-bottom: 57px;
-    margin-bottom: -40px;
+    margin-bottom: -20px;
+    margin-top: 22px;
 }
 
 nav ul{
@@ -104,12 +105,15 @@ u{
     background-size: 600px 350px;
     height: 490px;
     padding-bottom: 559px;
+    margin-left: 8px;
+    margin-top: -63px;
+    margin-right: 8px;
+    
 }
 
 .banner{
     bottom: 10;
     position: relative;
-    
 }
 .banner img{
     max-width: 100%;
