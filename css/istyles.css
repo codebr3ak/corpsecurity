@@ -401,7 +401,7 @@ u{
 
 .services{
     margin-top: 89px;
-   display: inline-block;
+    display: inline-block;
 }
 
 .container2
@@ -414,7 +414,7 @@ u{
             justify-content: space-between;
             margin-right: 223px;
             
-           
+    
         }
         
         .minor_columns
@@ -435,7 +435,7 @@ u{
             background-image: url("../assets/models/bkg\ partern\ 4.jpg");
             background-size: 700px 450px;
             font-family: "myriad Pro";
-         }
+        }
 
 
 
@@ -449,7 +449,7 @@ u{
     height: 400px;
     object-fit: cover;
     position: relative;
-     }
+    }
 
 .img-col2 {
     display: inline-block;
@@ -459,7 +459,7 @@ u{
     margin-top: -521px;
     height: 490px;
     object-fit: cover;
-         }
+        }
 
 .img-col3 {
     display: inline-block;
@@ -469,7 +469,7 @@ u{
     margin-top: -499px;
     height: 410px;
     object-fit: cover;
-          }
+        }
 
 .tripple{
     margin-bottom: 3px;

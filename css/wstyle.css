@@ -384,7 +384,7 @@ div.elem-group.inlined input {
 
 .fut{
     color: white;
-    padding-top: 23px;
+    /* padding-top: 23px; */
 }
 
 button:hover,
