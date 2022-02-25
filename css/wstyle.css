@@ -511,9 +511,9 @@ hr {
 }
 
 .protection{
-   margin-left: 698px;
-   margin-top: 603px;
-   position: absolute;
+    margin-left: 698px;
+    margin-top: 603px;
+    position: absolute;
 }
 
 .prof{
@@ -536,7 +536,6 @@ hr {
             margin-left: 700px;
             margin-bottom: -600px;
             
-           
         }
         
         .minor_columns
@@ -570,7 +569,7 @@ hr {
     margin-top: 419px;
     height: 400px;
     object-fit: cover;
-     }
+    }
 
 .img-col2 {
         display: inline-block;
@@ -580,7 +579,7 @@ hr {
         margin-top: -521px;
         height: 490px;
         object-fit: cover;
-         }
+        }
 .img-col3 {
             display: inline-block;
             margin: auto;
@@ -589,9 +588,16 @@ hr {
             margin-top: -499px;
             height: 421px;
             object-fit: cover;
-             }
+            }
 
 .tripple{
     margin-bottom: -673px;
 }
 
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
