@@ -214,7 +214,7 @@ margin-top: 19px;
     box-shadow: none;
 }
 
-.button1{
+.button1, .button2{
     margin-left: 50px;
 }
 
@@ -538,13 +538,14 @@ hr {
             
         }
         
-        .minor_columns
+        .minor_column1, .minor_column2, .minor_column3
         {
 
             margin-top: 15px;
             margin-bottom: 15px;
             border-spacing:0 5px;
             width: 31%;
+            padding: 7px;
             height: 190px;
             background-color: #3796da;
             font-weight: bold;
@@ -565,7 +566,7 @@ hr {
     margin: auto;
     width: 373px;
     padding: 2px;
-    margin-left: 631px;
+    margin-left: 629px;
     margin-top: 419px;
     height: 400px;
     object-fit: cover;
@@ -584,7 +585,7 @@ hr {
             display: inline-block;
             margin: auto;
             width: 560px;
-            margin-left: 1350px;
+            margin-left: 1370px;
             margin-top: -499px;
             height: 421px;
             object-fit: cover;
@@ -594,10 +595,181 @@ hr {
     margin-bottom: -673px;
 }
 
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-    }
+/* Add responsiveness - mobile phones */
+@media only screen and (max-width: 480px) {
+    
 }
+
+/* Add responsiveness - small screens & laptops */
+@media only screen and (max-width: 760px) {
+    .body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    .service_b {
+        width: 195%;
+        float: none;
+    }
+    .banner_org, .banner, .container_bg{
+        width: 840px;
+        margin: 5px;
+    }
+    .booking, .slideshow-container{
+        width: 100%;
+        float: none;
+        height: 463px;
+        margin-bottom: 72px;
+    }
+    .booking{
+    display:block;
+    float: right;
+    width: 33%;
+    margin-top: -360px;
+    margin-right: 12px;
+    }
+
+    .whatwedo {
+        position: relative;
+        margin-right: 2%;
+        float: none;
+        margin-top: -115px;
+    }
+    .images1{
+        width: 20%;
+        margin-left: -293px;
+        float: left;
+        margin-top: -445px;
+        position: relative;
+    }
+    .container{
+        height: 9.5em;
+        margin-top: 0.2px;
+    }
+    .navbar-header, .links{
+        padding: 1px;
+    
+    }
+    .navbar-brand{
+        margin-left: 40px;
+        display: inline-block;
+    }
+    .par1{
+        float: left;
+        position: absolute;
+        margin-top: -380px;
+        text-align: justify;
+        width: 900px;
+    }
+    
+    .banner_org2{
+        width: 840px;
+        margin: 5px;
+        float: none;
+        margin-top: 845px;
+    }
+    .cameraft{
+        width: 543px;
+        height: 12px;
+        position: absolute;
+        margin-left: -133px;
+    }
+    .imagesb{
+        float: none;
+        position: relative;
+        margin-top: -470px;
+        margin-left: -503px;
+        
+    }
+    .coreb{
+        margin: 3px;
+        text-align:left;
+        margin-left: 350px;
+        position: absolute;
+    }
+    .par2{
+        float: left;
+        position: absolute;
+        margin-top: -480px;
+        text-align: justify;
+        width: 900px;
+    }
+    .button2{
+        width: 203px;
+        height: 92px;
+        margin-top: 643px;
+    }
+    .protection{
+        float: left;
+        position:relative;
+        margin-left: 53px;
+        margin-top: 880px;
+    }
+    .minor_column1{
+        float: none;
+        position:relative;
+        margin-left: -640px;
+        margin-top: 243px;
+        width: 670px;
+        text-align: right;
+    }
+    .img-col1{
+        float: left;
+        position: absolute;
+        margin-top: -1118px;
+        margin-left: -450px;
+        width: 423px;
+        height: 483px;
+    }
+    .minor_column2{
+        float: left;
+        position:relative;
+        margin-left: -640px;
+        margin-top: 996px;
+        width: 670px;
+        
+    }
+    .img-col2{
+        float: none;
+        position: relative;
+        margin-top: -470px;
+        margin-left: -510px;
+        width: 423px;
+        height: 483px;
+    }
+    .prof{
+        float: left;
+        position:relative;
+        margin-left: 53px;
+        margin-top: 555px;
+        
+    }
+    .minor_column3{
+        float: none;
+        position:relative;
+        margin-left: -640px;
+        margin-top: 1786px;
+        width: 670px;
+        text-align: right;
+        
+    }
+    .cons{
+    float: left;
+    position:relative;
+    margin-left: 53px;
+    margin-top: 600px;
+
+    }
+.img-col3{
+    float: none;
+    position: relative;
+    margin-top: -997px;
+    margin-left: 13px;
+    width: 423px;
+    height: 483px;
+}
+}
+
+
+
+
+/* Add responsiveness - mobile phones */

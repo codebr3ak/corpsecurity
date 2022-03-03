@@ -257,8 +257,8 @@ u{
 }
 
 .imagesb{
-    flex: right;
     position: absolute;
+    flex: right;
     top: -130px;
     right: -20em;
 }
@@ -523,3 +523,11 @@ u{
     margin-right: 15px;
     margin-left: 1140px;
 }
+
+
+/* Add responsiveness - mobile phones */
+@media only screen and (max-width: 480px) {
+    
+}
+
+

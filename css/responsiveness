@@ -1,0 +1,109 @@
+
+    .img-col1{
+        display:block;
+        float:none;
+        position: absolute;
+        width: 230px;
+        margin-top: 710px;
+        margin-left: 123px;
+        }
+    .minor_column1{
+        position: absolute;
+        margin-top: -73px;
+        width: 323px;
+        margin-right: 853px;
+        float: none;
+    }
+
+
+    /* About page res */
+    @media only screen and (max-width: 500px) {
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        .img-responsive{
+            height: 65px;
+            width: 90px;
+            margin-left: -50px;
+        }
+        .nav-links{
+            background-size: contain;
+            font-size: 1vh;
+            font-weight: 400;
+            flex-direction: row-reverse;
+            width: 20%;
+            margin-right: 5px;
+            left: -45px;
+        }
+        .icons{
+            height: 15px;
+            width: 20px;
+        }
+        .banner_org{
+            background-size: auto;
+            width: 375px;
+            background-size: 600px 350px;
+            /* background-size: 600px 350px; */
+            height: 800px;
+            margin-left: 0px;
+        }
+        
+        .cameraft{
+            display: flex;
+            align-items: center;
+        }
+        .scarve{
+            height: 300px;
+            background-size: contain;
+            margin: 0;
+            padding: 5px 10px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 25em;
+            
+        }
+        .parag1{
+            font-size: 15px;
+            margin-left: 2px;
+            margin-right: 2px;
+            font-weight: lighter;
+            
+        }
+        .parag2{
+            font-size: 15px;
+            margin-left: 2px;
+            margin-right: 2px;
+            font-weight: lighter;
+        }
+    
+        .button-7{
+            width: 160px;
+            height: 40px;
+            font-size: 15px;
+            top: 100px;
+            margin-left: 10px;
+        }
+        .bluep{
+            font-size: 14px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        .blueps{
+            font-size: 13px;
+            margin-left: -6px;
+            margin-right: 2px;
+        }
+        .bluee{
+            /* color: red; */
+            margin-left: 40px;
+        }
+        .imagesb{
+            position: absolute;
+            flex: left;
+            top: 130px;
+            right: -45em;
+            padding: 20px 50px;
+        }
+    
+    }
