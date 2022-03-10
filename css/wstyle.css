@@ -596,180 +596,166 @@ hr {
 }
 
 /* Add responsiveness - mobile phones */
-@media only screen and (max-width: 480px) {
-    
-}
-
-/* Add responsiveness - small screens & laptops */
-@media only screen and (max-width: 760px) {
-    .body{
+@media screen and (max-width: 480px) {
+    body, html{
         overflow-x: hidden;
         max-width: 100%;
+    }
+
+      .nav li a{
+        font-size: 1px;
+        max-width: 100%;
+        color: red;
+        font-weight: lighter;
+    }
+
+    .navbar-header, .container, .links{
+        padding: 1px;
+        float: none;
+        position:relative;
+        margin-bottom: 20px;
+        width: 94%;
+        margin-right: 32px;
+    }
+    .banner_org, .banner, .container_bg{
+        width: 100%;
     }
     .service_b {
         width: 195%;
         float: none;
+        left: -3px;
     }
-    .banner_org, .banner, .container_bg{
-        width: 840px;
-        margin: 5px;
-    }
-    .booking, .slideshow-container{
-        width: 100%;
+    .recs {
+        position: absolute;
         float: none;
-        height: 463px;
-        margin-bottom: 72px;
+        width: 590px;
+        height: 374px;
+        left: -202px;
+        margin-top: 153px;
+      }
+    .icon{
+        display: none;
+    }
+    .img-responsive {
+        max-width: 110px;
+        margin-right: 10px;
+        margin-left: -32px;
+        margin-top: -5px;
+        height: 34px;
     }
     .booking{
-    display:block;
-    float: right;
-    width: 33%;
-    margin-top: -360px;
-    margin-right: 12px;
-    }
-
-    .whatwedo {
-        position: relative;
-        margin-right: 2%;
         float: none;
-        margin-top: -115px;
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        width: 322px;
+        margin-left: 55px;
+        margin-top: 533px;
     }
-    .images1{
-        width: 20%;
-        margin-left: -293px;
-        float: left;
-        margin-top: -445px;
-        position: relative;
-    }
-    .container{
-        height: 9.5em;
-        margin-top: 0.2px;
-    }
-    .navbar-header, .links{
-        padding: 1px;
-    
-    }
-    .navbar-brand{
-        margin-left: 40px;
-        display: inline-block;
+    .whatwedo{
+        float: none;
+        position: absolute;
+        margin-left: -5px;
+        margin-bottom: 53px;
     }
     .par1{
         float: left;
         position: absolute;
-        margin-top: -380px;
+        margin-top: 330px;
         text-align: justify;
-        width: 900px;
+        width: 100%;
+        margin-left: -27px;
     }
-    
-    .banner_org2{
-        width: 840px;
+    .banner_org2, .banner2{
         margin: 5px;
         float: none;
-        margin-top: 845px;
+        margin-top: 955px;
+        width: 100%;
+        height: 100px;
     }
     .cameraft{
-        width: 543px;
-        height: 12px;
-        position: absolute;
-        margin-left: -133px;
+        display: none;
     }
     .imagesb{
         float: none;
         position: relative;
-        margin-top: -470px;
-        margin-left: -503px;
+        margin-left: -907px;
+        margin-top: -473px;
+        width: 300%;
         
     }
-    .coreb{
-        margin: 3px;
-        text-align:left;
-        margin-left: 350px;
-        position: absolute;
-    }
+   
     .par2{
         float: left;
         position: absolute;
-        margin-top: -480px;
+        margin-top: 415px;
         text-align: justify;
-        width: 900px;
+        width: 90%;
     }
-    .button2{
-        width: 203px;
-        height: 92px;
-        margin-top: 643px;
-    }
+
     .protection{
         float: left;
         position:relative;
-        margin-left: 53px;
-        margin-top: 880px;
+        margin-left: -272px;
+        margin-top: 1240px;
+        left: 265px;
     }
     .minor_column1{
         float: none;
-        position:relative;
-        margin-left: -640px;
-        margin-top: 243px;
-        width: 670px;
-        text-align: right;
+        position:absolute;
+        margin-left: -930px;
+        width: 100%;
+        margin-top: 904px;
+        font-size: x-small;
     }
     .img-col1{
-        float: left;
-        position: absolute;
-        margin-top: -1118px;
-        margin-left: -450px;
-        width: 423px;
-        height: 483px;
+        display: none;
     }
     .minor_column2{
-        float: left;
-        position:relative;
-        margin-left: -640px;
-        margin-top: 996px;
-        width: 670px;
-        
+        float: none;
+        position:absolute;
+        margin-left: -930px;
+        width: 100%;
+        top: 3090px;
+        font-size: x-small;
     }
     .img-col2{
-        float: none;
-        position: relative;
-        margin-top: -470px;
-        margin-left: -510px;
-        width: 423px;
-        height: 483px;
+        display: none;
     }
     .prof{
         float: left;
         position:relative;
-        margin-left: 53px;
-        margin-top: 555px;
+        margin-left: -232px;
+        margin-top: 1635px;
+        left: 235px;
         
     }
+    .img-col3{
+       display: none;
+    }
     .minor_column3{
-        float: none;
         position:relative;
-        margin-left: -640px;
-        margin-top: 1786px;
-        width: 670px;
-        text-align: right;
+        margin-left: -930px;
+        margin-top: 1740px;
+        width: 520px;
+        text-align: center;
         
     }
     .cons{
-    float: left;
-    position:relative;
-    margin-left: 53px;
-    margin-top: 600px;
-
+        float: none;
+        position:absolute;
+        margin-left: 11px;
+        margin-top: 2096px;
     }
-.img-col3{
-    float: none;
-    position: relative;
-    margin-top: -997px;
-    margin-left: 13px;
-    width: 423px;
-    height: 483px;
+      
+  
+    .fut{
+        display: inline-block;
+        padding-top: 5px;
+        margin-top: 3px;
+        width: 98%;
+    }
+    
 }
-}
-
-
-
-
-/* Add responsiveness - mobile phones */
+/* Add responsiveness - Tablets*/
