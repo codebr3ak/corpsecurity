@@ -1125,19 +1125,21 @@ hr {
     
     .protection{
        margin-left: 388px;
-       margin-top: 603px;
+       margin-top: 533px;
        position: absolute;
+       width: 20%;
     }
     
     .prof{
-        margin-left:1058px;
-        margin-top: 603px;
+        margin-left:558px;
+        margin-top: 533px;
         position: absolute;
+        width: 20%;
     }
     
     .cons{
-        margin-left:1400px;
-        margin-top: 603px;
+        margin-left:800px;
+        margin-top: 533px;
         position: absolute;
     }
     
