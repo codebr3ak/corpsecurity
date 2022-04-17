@@ -260,7 +260,7 @@ u{
     flex: right;
     position: absolute;
     top: -130px;
-    right: -20em;
+    right: -25em;
 }
 
 .cameraft{
@@ -270,7 +270,7 @@ u{
     width: 50%;
     margin-top: 0;
     top: 138px;
-    right: 40em;}
+    right: 42em;}
 
 .flex-container {
     display: flex;
@@ -303,7 +303,9 @@ u{
 }
 
 .csquote{
-    float: right;
+    max-width: 100%;
+    left: 623px;
+    position: absolute;
 }
 
 .booking{
@@ -333,17 +335,17 @@ u{
     list-style-type: none;
     text-align: center;
     display: block;
-    right: 44em;
-    top: 68em;
+    right: 19em;
+    top: 1273px;
     height: 555px;
     object-fit: cover;
 }
 
 .fguard{
     position: absolute;
-    left: 13em;
-    top: 68em;
-    height: 554px;
+    left: 18em;
+    top: 1304px;
+    height: 524px;
     object-fit: cover;
 }
 
