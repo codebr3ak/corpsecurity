@@ -51,6 +51,7 @@ nav li a:hover{
     margin-left:70px;
     display: flex;
     color:#3796da;
+    max-width: 100%;
 }
 
 .column2 {
@@ -69,7 +70,7 @@ u{
     background: #fbfcfe;
     color: #0f1e31 ;
     margin-left: 55px;
-    width: 550px;
+    width: 450px;
     float: right;
     font-weight: bolder;
     font-family: 'Open Sans';
@@ -373,12 +374,11 @@ button {
     border:#3796DA;
     color: black;
     padding-bottom: 445px;
-    margin-top: 19px;
-    margin-left: 500px;
+    margin-top: -263px;
+    margin-left: 800px;
     width: 550px;
     padding: 5px;
     float: right;
-    padding-top: 18px;
     border-radius: 8px;
   }
 
@@ -386,8 +386,9 @@ button {
     margin-left: px;
 }
 
-  .map{
+.map{
       padding: 0em;
+      margin: 3px;
   }
   .container{
       padding-bottom: 0px;
