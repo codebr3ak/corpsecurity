@@ -1,3 +1,5 @@
+/*LAPTOP SCREENS 1440px*/
+@media only screen and (max-device-width: 1440px),(min-width: 1368px){
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -465,3 +467,7 @@ button {
 .active, .dot:hover {
   background-color: #717171;
 }
+}
+
+/*LAPTOP SCREENS 1024px*/
+@media only screen and (max-device-width: 1024px){}
