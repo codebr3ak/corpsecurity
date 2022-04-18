@@ -167,8 +167,9 @@ div.elem-group.inlined input {
     max-height: 100%;
 }
 
-
-
+.navbar-header{
+    margin-bottom: 23px;
+}
 
 .button-7 {
     background-color: #0095ff;
