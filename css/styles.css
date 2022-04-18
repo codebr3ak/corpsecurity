@@ -391,6 +391,7 @@ button {
 .map{
       padding: 0em;
       margin: 3px;
+      height: 623px;
   }
   .container{
       padding-bottom: 0px;
@@ -866,6 +867,7 @@ button {
         .map{
               padding: 0em;
               margin: 3px;
+              width: 123px;
           }
           .container{
               padding-bottom: 0px;
