@@ -146,7 +146,7 @@ u{
     font-weight: bolder;
     text-decoration-color: #3796DA;
     text-underline-offset: 10px;
-    margin-left: -112px;
+    margin-left: -202px;
     /* text-decoration-thickness:em; */
 }
 
@@ -212,7 +212,7 @@ u{
     white-space: nowrap;
     top: 170px;
     margin-left: 209px;
-    margin-top: 292px;
+    margin-top: 665px;
 }
 
 .button-8 {
@@ -360,16 +360,16 @@ u{
     list-style-type: none;
     text-align: center;
     display: block;
-    right: 19em;
-    top: 1273px;
+    right: 17em;
+    top: 1398px;
     height: 555px;
     object-fit: cover;
 }
 
 .fguard{
     position: absolute;
-    left: 18em;
-    top: 1304px;
+    left:15em;
+    top: 1429px;
     height: 524px;
     object-fit: cover;
 }
