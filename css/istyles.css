@@ -1,5 +1,5 @@
 /*LAPTOP SCREENS 1440px*/
-@media only screen and (max-device-width: 1440px),(min-width: 1368px) {
+@media screen and (max-device-width: 1440px){
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -216,7 +216,7 @@ u{
     touch-action: manipulation;
     vertical-align: baseline;
     white-space: nowrap;
-    top: 170px;
+    top: 280px;
     margin-left: 209px;
     margin-top: 715px;
 }
@@ -1102,4 +1102,33 @@ u{
         columns: 250px 3;
     }
 
+}
+@media only screen and (max-device-width: 1440px){
+    .fguard{
+        margin-left: 40px;
+        margin-top: -165px;
+    }
+    .guardss{
+        margin-top: -163px;
+        margin-right: 52px;
+    }
+    .button-7{
+        margin-top: 723px;
+    }
+}
+@media only screen and (max-device-width: 1366px){
+    .fguard{
+        margin-left: 113px;
+        margin-top: 30px;
+        height: 453px;
+        width: 358px;
+    }
+    .guardss{
+        margin-top: -43px;
+        margin-right: 12px;
+    }
+    .button-7{
+        margin-top: 560px;
+
+    }  
 }

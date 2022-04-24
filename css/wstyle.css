@@ -255,7 +255,7 @@
     .cameraft{
         position: absolute;
         top: 0px;
-        margin-left: -41px;
+        margin-left: 42px;
         list-style-type: none;
         height: 600px;
         width: 1200px; 
@@ -524,7 +524,7 @@
     }
      
     .cons{
-         margin-left:1130px;
+         margin-left:1180px;
         margin-top: 453px;
          position: absolute;
          width: 14%;
@@ -551,9 +551,10 @@
                 background-color: #3796da;
                 color: #3796da;
                 font-weight: 800;
-                font-size: 30px; 
+                font-size: 35px; 
                 padding: 5px;
                 text-align: right;
+                float: right;
                 line-height: 0.9;
                 background-image: url("../assets/models/bkg\ partern\ 4.jpg");
                 background-size: 700px 450px;
@@ -566,7 +567,7 @@
         margin: auto;
         width: 273px;
         padding: 2px;
-        margin-left: 611px;
+        margin-left: 641px;
         margin-top: 423px;
         height: 280px;
         object-fit: cover;
@@ -577,7 +578,7 @@
             margin: auto;
             width: 380px;
             margin-top: -378px;
-            margin-left: 801px;
+            margin-left: 851px;
             height: 350px;
             object-fit: cover;
              }
@@ -585,7 +586,7 @@
                 display: inline-block;
                 margin: auto;
                 width: 360px;
-                margin-left: 1040px;
+                margin-left: 1090px;
                 margin-top: -348px;
                 height: 270px;
                 object-fit: cover;
