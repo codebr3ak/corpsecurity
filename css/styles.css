@@ -928,12 +928,16 @@ button {
         }
         
 }
-@media only screen and (max-device-width: 1366px){
+@media screen and (max-device-width: 1366px){
     .images1 {
         height: 277px;
         width: 398px;
-        bottom: -556px;
+        bottom: -41px;
         position: absolute;
         margin-left: 23px;
         }
+}
+@media only screen and (max-device-width: 1440px){
+    .images1{margin-top: -110px;
+    }
 }
