@@ -85,6 +85,12 @@ nav li a:hover{
 u{
     text-decoration-color: #3796DA;
 }
+.links{
+    margin-top: 15px;
+}
+.container{
+    margin-top: -21px;
+}
 
 .banner{
     bottom: 12;
@@ -193,7 +199,7 @@ u{
     border-radius: 3px;
     box-sizing:border-box;
     width: 202px;
-    height: 50px;
+    height: 40px;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -212,7 +218,7 @@ u{
     white-space: nowrap;
     top: 170px;
     margin-left: 209px;
-    margin-top: 665px;
+    margin-top: 715px;
 }
 
 .button-8 {
@@ -270,7 +276,7 @@ u{
     margin: auto;
     width: 50%;
     margin-top: 0;
-    top: 138px;
+    top: 95px;
     right: 42em;}
 
 .flex-container {
@@ -361,7 +367,7 @@ u{
     text-align: center;
     display: block;
     right: 17em;
-    top: 1398px;
+    top: 1377px;
     height: 555px;
     object-fit: cover;
 }
@@ -369,7 +375,7 @@ u{
 .fguard{
     position: absolute;
     left:15em;
-    top: 1429px;
+    top: 1408px;
     height: 524px;
     object-fit: cover;
 }
@@ -522,13 +528,14 @@ u{
     }
 
 .navbar-header{
-    margin-top: 16px;
+    margin-top: -9px;
 }
 
 .navbar-header2{
-    margin-bottom: -66px;
-    margin-top: 3px;
-}
+    margin-bottom: -98px;
+    margin-top: -5px;
+    width: 100%;
+    }
 
 .services ul{
     margin-left: 198px;
