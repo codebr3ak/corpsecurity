@@ -1,5 +1,5 @@
 /*LAPTOP SCREENS 1440px*/
-@media only screen and (max-device-width: 1440px),(min-width: 1368px){
+@media only screen and (max-device-width: 1600px){
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -109,8 +109,8 @@ div.elem-group.inlined input {
             
 .images1 li{
     height: 577px;
-    width: 898px;
-    bottom: 475px;
+    width: 998px;
+    bottom: 235px;
     position: absolute;
     margin-left: 123px;
     }
@@ -368,7 +368,7 @@ button {
     color: black;
     padding-bottom: 445px;
     margin-top: -263px;
-    margin-left: 800px;
+    margin-left: 1100px;
     width: 550px;
     padding: 5px;
     float: right;

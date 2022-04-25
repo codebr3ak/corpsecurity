@@ -1,5 +1,5 @@
-/*LAPTOP MEDIUM SCREENS 1440px*/
-@media screen and (max-width: 1440px),(min-width: 1366px){
+/*LAPTOP MEDIUM SCREENS 1440px "if device width is greater than or equals to 1440px, then apply the CSS defined in this block."*/
+@media screen and (max-width: 1600px){
     body {
         max-width: 100%;
         overflow-x: hidden;
@@ -81,7 +81,7 @@
     
     .images1{
         white-space: nowrap;
-        margin-left: 10px;
+        margin-left: 140px;
         position: absolute;
     }
     .images1 li{
@@ -121,10 +121,11 @@
     }
     
     .banner_org2{
-        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-image: url(../assets/models/bkg\ partern\ 4.jpg);
         background-size: 600px 350px;
         height: 510px;
-        width: 759px;
+        width: 100%;
+        width: 920px;
         padding-bottom: 590px;
         margin-left: 670px;
         max-width: 100%;
@@ -255,7 +256,7 @@
     .cameraft{
         position: absolute;
         top: 0px;
-        margin-left: 42px;
+        margin-left: 66px;
         list-style-type: none;
         height: 600px;
         width: 1200px; 
@@ -510,21 +511,21 @@
     }
     
     .protection{
-       margin-left: 690px;
+       margin-left: 700px;
        margin-top: 453px;
        position: absolute;
        width: 14%;
     }
     
     .prof{
-        margin-left: 914px;
+        margin-left: 994px;
         margin-top: 453px;
         position: absolute;
         width: 14%;
     }
      
     .cons{
-         margin-left:1180px;
+         margin-left:1280px;
         margin-top: 453px;
          position: absolute;
          width: 14%;
@@ -551,7 +552,7 @@
                 background-color: #3796da;
                 color: #3796da;
                 font-weight: 800;
-                font-size: 35px; 
+                font-size: 38px; 
                 padding: 5px;
                 text-align: right;
                 float: right;
@@ -578,7 +579,7 @@
             margin: auto;
             width: 380px;
             margin-top: -378px;
-            margin-left: 851px;
+            margin-left: 881px;
             height: 350px;
             object-fit: cover;
              }
@@ -586,7 +587,7 @@
                 display: inline-block;
                 margin: auto;
                 width: 360px;
-                margin-left: 1090px;
+                margin-left: 1190px;
                 margin-top: -348px;
                 height: 270px;
                 object-fit: cover;
@@ -598,7 +599,7 @@
     }
     
     /*LAPTOP MEDIUM SCREENS 1024px*/
-    @media screen and (max-device-width: 1024px){
+    @media screen and (max-width: 1024px){
       d  body {
             max-width: 100%;
             overflow-x: hidden;
@@ -1202,7 +1203,7 @@
     }
     
     /*LAPTOP MEDIUM SCREENS 1366px*/
-    @media only screen and (max-device-width: 1366px){
+    @media only screen and (max-width: 1366px){
         .images1{
             text-align: center;
             margin-top: 10px;
@@ -1235,10 +1236,14 @@
         .navbar-header{
             margin-bottom: 12px;
         }
+        .banner_org2{
+            width: 100%;
+            width: 523px;
+        }
     }
     
     /*LAPTOP MEDIUM SCREENS 768px*/
-    @media screen and (max-device-width: 768px){
+    @media screen and (max-width: 768px){
         body {
             max-width: 100%;
             overflow-x: hidden;
