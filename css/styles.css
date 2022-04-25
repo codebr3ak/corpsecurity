@@ -1,5 +1,5 @@
 /*LAPTOP SCREENS 1440px*/
-@media only screen and (max-device-width: 1600px){
+@media only screen and (max-width: 1600px){
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -110,7 +110,7 @@ div.elem-group.inlined input {
 .images1 li{
     height: 577px;
     width: 998px;
-    bottom: 235px;
+    bottom: 116px;
     position: absolute;
     margin-left: 123px;
     }
@@ -368,8 +368,8 @@ button {
     color: black;
     padding-bottom: 445px;
     margin-top: -263px;
-    margin-left: 1100px;
-    width: 550px;
+    margin-left: 1050px;
+    width: 530px;
     padding: 5px;
     float: right;
     border-radius: 8px;
@@ -462,7 +462,7 @@ button {
 }
 
 /*LAPTOP SCREENS 1024px*/
-@media only screen and (max-device-width: 1024px){
+@media only screen and (max-width: 1024px){
         body {
             max-width: 100%;
             overflow-x: hidden;
@@ -928,7 +928,7 @@ button {
         }
         
 }
-@media screen and (max-device-width: 1366px){
+@media screen and (max-width: 1366px){
     .images1 {
         height: 277px;
         width: 398px;
@@ -937,7 +937,7 @@ button {
         margin-left: 23px;
         }
 }
-@media only screen and (max-device-width: 1440px){
+@media only screen and (max-width: 1440px){
     .images1{margin-top: -110px;
     }
 }
