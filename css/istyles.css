@@ -687,7 +687,7 @@ u{
         padding: 30px;
         font-size: 45px;
         position: absolute;
-        left: 2.7em;
+        margin-left: -250px;
         margin-top: 60px;
         font-weight: bolder;
         text-decoration-color: #3796DA;
@@ -755,10 +755,9 @@ u{
         touch-action: manipulation;
         vertical-align: baseline;
         white-space: nowrap;
-        top: 170px;
+        top: 540px;
         margin-left: 43px;
-        margin-top: 392px;
-    }
+            }
     
     .button-8 {
         background-color: #0F1E31;
@@ -815,8 +814,8 @@ u{
         margin: auto;
         width: 50%;
         margin-top: 0;
-        top: 138px;
-        right: 45em;}
+        top: 95px;
+        margin-right: 3px;}
     
     .flex-container {
         display: flex;
@@ -849,9 +848,8 @@ u{
     }
     
     .csquote{
-        max-width: 100%;
-        left: 273px;
         position: absolute;
+        margin-left: -263px;
     }
     
     .booking{
@@ -903,17 +901,17 @@ u{
         list-style-type: none;
         text-align: center;
         display: block;
-        right: 12em;
-        top: 1431px;
-        height: 555px;
+        right: 19em;
+        top: 1047px;
+        height: 755px;
         object-fit: cover;
     }
     
     .fguard{
         position: absolute;
-        left: -1em;
-        top: 1461px;
-        height: 524px;
+        left: 3em;
+        top: 1278px;
+        height: 724px;
         object-fit: cover;
     }
     
@@ -1065,7 +1063,7 @@ u{
         }
     
     .navbar-header{
-        width: 92%;
+        width: 91%;
         display: inline-block;
     }
     
