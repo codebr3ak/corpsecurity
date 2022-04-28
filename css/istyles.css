@@ -567,8 +567,6 @@ u{
 }
 }
 
-
-
 /*LAPTOP SCREENS 1024px*/
 
 @media only screen and (max-width: 1024px){
@@ -1109,26 +1107,40 @@ u{
 }
 @media only screen and (max-width: 1440px){
     .fguard{
-        margin-left: 40px;
-        margin-top: -165px;
+        margin-left: -33px;
+        margin-top: 101px;;
     }
     .guardss{
-        margin-top: -163px;
-        margin-right: 52px;
+        margin-top: 101px;
+        margin-right: -125px;
     }
     .button-7{
-        margin-top: 723px;
+        margin-top: 3px;
+    }
+    .cameraft{
+        right: 713px;
+    }
+    .consultant{
+        margin-left: -62px;
+        width: 90%;
+    }
+    .minor_columns{
+        width: 31%;
+        margin-right: 28px;
+    }
+    .footer{
+        width: 99%;
     }
 }
 @media only screen and (max-width: 1366px){
     .fguard{
         margin-left: -13px;
-        margin-top: 323px;
+        margin-top: 298px;
         height: 453px;
         width: 358px;
     }
     .guardss{
-        margin-top: 253px;
+        margin-top: 227px;
         margin-right: -102px;
     }
     .button-7{
