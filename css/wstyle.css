@@ -597,7 +597,7 @@
         margin-bottom: -673px;
     }
     }
-      /*LAPTOP MEDIUM SCREENS 1024px*/
+      /*LAPTOP MEDIUM SCREENS 1024px ""if device width is greater than or equals to 1024px, then apply the CSS defined in this block.""*/
     @media screen and (max-width: 1024px){
       body {
             max-width: 100%;
@@ -1191,7 +1191,7 @@
        
     }
     
-    /*LAPTOP MEDIUM SCREENS 1366px*/
+    /*LAPTOP MEDIUM SCREENS 1366px ""if device width is greater than or equals to 1366px, then apply the CSS defined in this block.""*/
     @media only screen and (max-width: 1366px){
         .images1{
             text-align: center;
