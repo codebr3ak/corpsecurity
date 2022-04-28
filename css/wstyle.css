@@ -597,10 +597,9 @@
         margin-bottom: -673px;
     }
     }
-    
-    /*LAPTOP MEDIUM SCREENS 1024px*/
+      /*LAPTOP MEDIUM SCREENS 1024px ""if device width is greater than or equals to 1024px, then apply the CSS defined in this block.""*/
     @media screen and (max-width: 1024px){
-      d  body {
+      body {
             max-width: 100%;
             overflow-x: hidden;
             font-family: 'Open Sans';
@@ -619,6 +618,7 @@
         }
         .service_b{
             color: #3796da ;
+            margin-left: -23px;
         }
         
         nav{
@@ -680,23 +680,10 @@
             text-decoration-color: #3796DA;
         }
       
-        .images1{
-            text-align: center;
-            margin-top: 10px;
-            margin: 80px 20px;
-            white-space: nowrap;
-            margin-right: 700px;
-            margin: 1px;
-            height: 13px;
+        .images1 ul{
+            margin-right: -323px;
         }
         
-        .images1 li{
-            width: 2%;
-            margin: 30px 5%;
-            position: relative;
-            margin-left: -15px;
-            bottom: 31px;
-        }
         
         
         .row{
@@ -736,13 +723,14 @@
             height: 410px;
             width: 49%;
             padding-bottom: 590px;
-            margin-left: 520px;
+            margin-left: 494px;
         }
         
         .banner2 {
             bottom: 0px;
             position: relative;
-            margin-top: 43px;        
+            margin-top: 43px; 
+            width: 97%;       
         }
         .banner2 img{
             max-width: 100%;
@@ -752,21 +740,22 @@
         .whatwedo{
         color: white;
         padding-top:256px;
-        margin-left: 15px;
-        float: left;
-        margin-top: 19px;
+        margin-left: 5px;
+        margin-top: 79px;
+
         }
         .booking{
             height: 450px;
             background: #fbfcfe;
-            color: #0f1e31 ;
-            width: 390px;
+            color: #0f1e31;
+            margin-left: 55px;
+            width: 550px;
             float: right;
             font-weight: bolder;
             font-family: 'Open Sans';
-            margin-right: 20px;
+            margin-right: 8px;
             margin-top: 55px;
-            border-radius: 4px;
+            border-radius: 20px;
         }
         .book{
             font-family: 'Open Sans';
@@ -866,7 +855,7 @@
         }
         
         .corep{
-            max-width: 15cm;
+            max-width: 8cm;
             margin-top: 15em;
             margin-left: 50px;
         }
@@ -900,15 +889,15 @@
         
         .list{
             list-style-type: none;
+            margin-left: -93px;
         }
         
         .cameraft{
             position: absolute;
             top: 0px;
-            margin-left: 100px;
-            margin-right: -76px;
+            margin-left: 426px;
             list-style-type: none;
-            width: 823px;
+            width: 623px;
             height: 123px;
         }
         
@@ -1138,9 +1127,9 @@
         }
         
         .cons{
-            margin-left:800px;
             margin-top: 533px;
             position: absolute;
+            width: 20%;
         }
         
         .container2{
@@ -1174,7 +1163,7 @@
             margin: auto;
             width: 273px;
             padding: 2px;
-            margin-left: 327px;
+            margin-left: -327px;
             margin-top: 479px;
             height: 300px;
             object-fit: cover;
@@ -1202,7 +1191,7 @@
        
     }
     
-    /*LAPTOP MEDIUM SCREENS 1366px*/
+    /*LAPTOP MEDIUM SCREENS 1366px ""if device width is greater than or equals to 1366px, then apply the CSS defined in this block.""*/
     @media only screen and (max-width: 1366px){
         .images1{
             text-align: center;
@@ -1225,7 +1214,7 @@
             width: 443px;
         }
         .cameraft{
-            right: 173px;
+            margin-right: -73px;
         }
         .img-col1{
             margin-left: 602px;
@@ -1245,7 +1234,8 @@
         .banner2 {
             bottom: 0px;
             position: relative;
-            max-width: 100%; 
+            max-width: 98%; 
+            margin-left: -23px;
         }
         .minor_columns{
             font-size: 32px;
@@ -1848,6 +1838,39 @@
         .tripple{
             margin-bottom: -673px;
             margin-left: -413px;
+        }
+    }
+    @media screen and (max-width: 1440px){
+        .banner_org2{
+            width: 50%;
+        }
+        .banner2 {
+            bottom: 0px;
+            position: relative;
+            width: 100%; 
+            left: 43px;
+        }
+        .cameraft{
+            right: 243px;
+            bottom: 4px;
+        }
+        .img-col1{
+            margin-left: 622px;
+        }
+        .protection{
+            margin-left: 682px;
+        }
+        .img-col2{
+            margin-left: 833px;
+        }
+        .prof{
+            margin-left: 942px;
+        }
+        .img-col3 {
+            margin-left: 1082px;
+        }
+        .cons{
+            margin-left: 1182px;
         }
     }
     
