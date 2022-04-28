@@ -110,7 +110,7 @@ div.elem-group.inlined input {
 .images1 li{
     height: 577px;
     width: 998px;
-    bottom: 116px;
+    bottom: 687px;
     position: absolute;
     margin-left: 123px;
     }
@@ -930,11 +930,10 @@ button {
 }
 @media screen and (max-width: 1366px){
     .images1 {
-        height: 277px;
-        width: 398px;
-        bottom: -41px;
+        width: 100%;
+        bottom: 12px;
         position: absolute;
-        margin-left: 23px;
+        margin-right: 0px;
         }
 }
 @media only screen and (max-width: 1440px){

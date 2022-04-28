@@ -368,15 +368,15 @@ u{
     text-align: center;
     display: block;
     right: 27em;
-    top: 1126px;
+    top: 1108px;
     height: 555px;
     object-fit: cover;
 }
 
 .fguard{
     position: absolute;
-    left: 19em;
-    top: 1157px;
+    left: 20em;
+    top: 1139px;
     height: 524px;
     object-fit: cover;
 }
@@ -1122,17 +1122,53 @@ u{
 }
 @media only screen and (max-width: 1366px){
     .fguard{
-        margin-left: 113px;
-        margin-top: 30px;
+        margin-left: -13px;
+        margin-top: 323px;
         height: 453px;
         width: 358px;
     }
     .guardss{
-        margin-top: -43px;
-        margin-right: 12px;
+        margin-top: 253px;
+        margin-right: -102px;
     }
     .button-7{
-        margin-top: 560px;
+        margin-top: 3px;
 
     }  
+    .about_b{
+        left: 273px;
+    }
+    .cameraft{
+        left: -167px;
+    }
+    .csquote{
+        left: 553px;
+        width: 100%;
+        height: auto;
+    }
+    #img2 {
+        right: -1223px;
+        width: 413px;
+      }
+    #img3{
+        right: -963px;
+        width: 544px;
+      }
+    .protection{
+        font-size: 12px;
+        width: 86%;
+        margin-top: -34px;
+    }
+    .consultant{
+        width: 86%;
+        margin-left: -123px;
+        font-size: 12px;
+        margin-top: 95px;
+    }
+    .professional{
+        width: 100%;
+        margin-left: -53px;
+        font-size: 12px;
+        margin-top: 60px;
+    }
 }

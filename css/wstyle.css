@@ -1228,17 +1228,36 @@
             right: 173px;
         }
         .img-col1{
-            margin-left: px;
+            margin-left: 602px;
+        }
+        .img-col2{
+            margin-left: 790px;
         }
         .img-col3{
-            margin-right: -110px;
+            margin-left: 1020px;
         }
         .navbar-header{
             margin-bottom: 12px;
         }
         .banner_org2{
-            width: 100%;
-            width: 523px;
+            width: 50%;
+        }
+        .banner2 {
+            bottom: 0px;
+            position: relative;
+            max-width: 100%; 
+        }
+        .minor_columns{
+            font-size: 32px;
+        }
+        .protection{
+            right: 463px;
+        }
+        .prof{
+            right: 253px;
+        }
+        .cons{
+            right: 33px;
         }
     }
     
