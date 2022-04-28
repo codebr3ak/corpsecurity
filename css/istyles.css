@@ -1,5 +1,5 @@
 /*LAPTOP SCREENS 1440px*/
-@media only screen and (max-device-width: 1440px),(min-width: 1368px) {
+@media screen and (max-width: 1600px){
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -85,6 +85,12 @@ nav li a:hover{
 u{
     text-decoration-color: #3796DA;
 }
+.links{
+    margin-top: 15px;
+}
+.container{
+    margin-top: -21px;
+}
 
 .banner{
     bottom: 12;
@@ -96,7 +102,9 @@ u{
     background-size: 600px 350px;
     height: 510px;
     padding-bottom: 590px;
-    max-width: 1440px;
+    max-width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .banner img{
@@ -146,7 +154,7 @@ u{
     font-weight: bolder;
     text-decoration-color: #3796DA;
     text-underline-offset: 10px;
-    margin-left: -112px;
+    margin-left: -202px;
     /* text-decoration-thickness:em; */
 }
 
@@ -193,7 +201,7 @@ u{
     border-radius: 3px;
     box-sizing:border-box;
     width: 202px;
-    height: 50px;
+    height: 40px;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -210,9 +218,8 @@ u{
     touch-action: manipulation;
     vertical-align: baseline;
     white-space: nowrap;
-    top: 170px;
     margin-left: 209px;
-    margin-top: 292px;
+    margin-top: 15px;
 }
 
 .button-8 {
@@ -261,7 +268,7 @@ u{
     flex: right;
     position: absolute;
     top: -130px;
-    right: -25em;
+    right: -21em;
 }
 
 .cameraft{
@@ -270,7 +277,7 @@ u{
     margin: auto;
     width: 50%;
     margin-top: 0;
-    top: 138px;
+    top: 95px;
     right: 42em;}
 
 .flex-container {
@@ -333,7 +340,7 @@ u{
 .ftrainer{
     position: absolute;
     left: 0px;
-    top: -273px;
+    top: -269px;
     padding: 0;
     margin: 0;
     width: 844px;
@@ -350,7 +357,7 @@ u{
     position: absolute;
     right: 40px;
     left: 3px;
-    top: -273px;
+    top: -269px;
     padding: 0;
     margin: 0;
 }
@@ -360,16 +367,16 @@ u{
     list-style-type: none;
     text-align: center;
     display: block;
-    right: 19em;
-    top: 1273px;
+    right: 27em;
+    top: 1126px;
     height: 555px;
     object-fit: cover;
 }
 
 .fguard{
     position: absolute;
-    left: 18em;
-    top: 1304px;
+    left: 19em;
+    top: 1157px;
     height: 524px;
     object-fit: cover;
 }
@@ -440,25 +447,26 @@ u{
             padding: 12px;
             justify-content: space-between;
             margin-right: 223px;
+            width:87%;
             
            
         }
         
         .minor_columns
         {
-            display: inline-block;
             margin-top: 15px;
             margin-bottom: 15px;
-            width: 32%;
+            border-spacing:0 5px;
+            width : 31%;
             height: 190px;
             background-color: #3796da;
-            font-weight: bold;
-            color: white;
+            color: #3796da;
+            font-weight: 800;
+            font-size: 38px; 
+            padding: 5px;
             text-align: right;
-            font-size: 50px;
-            line-height: 1.3;
-            word-spacing: 10px;
-            letter-spacing: -1px;
+            float: right;
+            line-height: 0.9;
             background-image: url("../assets/models/bkg\ partern\ 4.jpg");
             background-size: 700px 450px;
             font-family: "myriad Pro";
@@ -482,7 +490,7 @@ u{
     display: inline-block;
     margin: auto;
     width: 580px;
-    margin-left: 352px;
+    margin-left: 522px;
     margin-top: -521px;
     height: 490px;
     object-fit: cover;
@@ -492,7 +500,7 @@ u{
     display: inline-block;
     margin: auto;
     width: 560px;
-    margin-left: 810px;
+    margin-left: 1010px;
     margin-top: -439px;
     height: 410px;
     position: absolute;
@@ -522,37 +530,40 @@ u{
     }
 
 .navbar-header{
-    margin-top: 16px;
+    display: inline-block;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .navbar-header2{
-    margin-bottom: -66px;
-    margin-top: 3px;
-}
+    margin-bottom: -98px;
+    margin-top: -5px;
+    width: 100%;
+    }
 
 .services ul{
     margin-left: 198px;
-    margin-top: -96px;
-    width: 323px;
+    margin-top: -111px;
+    width: 55%;
     
 }
 
 .professional ul {
     list-style-position: inside;
     justify-content: center;
-    margin-top: -166px;
-    margin-left: 519px;
-    width: 323px;
+    margin-top: -185px;
+    margin-left: 645px;
+    width: 100%;
 }
 
 .consultant ul{
     list-style-position: inside;
     justify-content: center;
-    margin-top: -400px;
-    margin-right: 15px;
-    margin-left: 850px;
-    float: left;
-    width: 40%;
+    margin-top: -331px;
+    margin-left: 1128px;
+    float: center;
+    width: 30%;
 }
 }
 
@@ -560,7 +571,7 @@ u{
 
 /*LAPTOP SCREENS 1024px*/
 
-@media only screen and (max-device-width: 1024px){
+@media only screen and (max-width: 1024px){
     .body{
         max-width: 100%;
         overflow-x: hidden;
@@ -868,7 +879,7 @@ u{
     }
     .ftrainer{
         position: absolute;
-        left: -90px;
+        left: -100px;
         top: -271px;
         padding: 0;
         margin: 0;
@@ -876,7 +887,7 @@ u{
     }
     .ysecurity{
         margin-right: 222px;
-        left: 1px;
+        left: -50px;
         margin: 0;
         position: relative;
     }
@@ -895,7 +906,7 @@ u{
         text-align: center;
         display: block;
         right: 12em;
-        top: 1336px;
+        top: 1431px;
         height: 555px;
         object-fit: cover;
     }
@@ -903,7 +914,7 @@ u{
     .fguard{
         position: absolute;
         left: -1em;
-        top: 1566px;
+        top: 1461px;
         height: 524px;
         object-fit: cover;
     }
@@ -950,7 +961,7 @@ u{
         /* position: fixed; */
         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
         width: 100%;
-        margin-top: 8.2em;
+        margin-top: 14.2em;
         left: 0;
         bottom: 0;
         background-size: 600px 450px;
@@ -1005,7 +1016,7 @@ u{
         display: inline-block;
         width: 373px;
         padding: 2px;
-        margin-left: 129px;
+        margin-left: -5px;
         margin-top: 459px;
         height: 400px;
         object-fit: cover;
@@ -1016,7 +1027,7 @@ u{
         display: inline-block;
         margin: auto;
         width: 580px;
-        margin-left: 352px;
+        margin-left: 178px;
         margin-top: -521px;
         height: 490px;
         object-fit: cover;
@@ -1026,7 +1037,7 @@ u{
         display: inline-block;
         margin: auto;
         width: 560px;
-        margin-left: 810px;
+        margin-left: 530px;
         margin-top: -439px;
         height: 410px;
         position: absolute;
@@ -1067,18 +1078,18 @@ u{
     }
     
     .services ul{
-        margin-left: 198px;
+        margin-left: 38px;
         margin-top: -96px;
-        width: 323px;
+        width: 39%;
         
     }
     
     .professional ul {
         list-style-position: inside;
         justify-content: center;
-        margin-top: -166px;
-        margin-left: 519px;
-        width: 323px;
+        margin-top: -326px;
+        margin-left: 329px;
+        width: 34%;
     }
     
     .consultant ul{
@@ -1086,9 +1097,42 @@ u{
         justify-content: center;
         margin-top: -400px;
         margin-right: 15px;
-        margin-left: 850px;
+        margin-left: 654px;
         float: left;
-        width: 40%;
+        width: 35%;
+        -webkit-columns: 150px 3;
+        -moz-columns: 50px 3;
+        column-gap: 50px;
+        columns: 250px 3;
     }
 
+}
+@media only screen and (max-width: 1440px){
+    .fguard{
+        margin-left: 40px;
+        margin-top: -165px;
+    }
+    .guardss{
+        margin-top: -163px;
+        margin-right: 52px;
+    }
+    .button-7{
+        margin-top: 723px;
+    }
+}
+@media only screen and (max-width: 1366px){
+    .fguard{
+        margin-left: 113px;
+        margin-top: 30px;
+        height: 453px;
+        width: 358px;
+    }
+    .guardss{
+        margin-top: -43px;
+        margin-right: 12px;
+    }
+    .button-7{
+        margin-top: 560px;
+
+    }  
 }
