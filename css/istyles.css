@@ -980,28 +980,28 @@ u{
                 margin-top: 2px;
                 margin-left: 20px;
                 margin-bottom: -650px;
-                padding: 12px;
+                padding: 0px;
                 width: 96%;
-                text-indent: -32%;
+                text-indent: 2%;
                 justify-content: space-between;
                 margin-right: 223px;
             }
             
      .minor_columns
             {
-                display: inline-block;
                 margin-top: 15px;
                 margin-bottom: 15px;
-                width: 32%;
+                border-spacing:0 5px;
+                width : 31%;
                 height: 190px;
                 background-color: #3796da;
-                font-weight: bold;
-                color: white;
+                color: #3796da;
+                font-weight: 800;
+                font-size: 43px; 
+                padding: 5px;
                 text-align: right;
-                font-size: 50px;
-                line-height: 1.3;
-                word-spacing: 10px;
-                letter-spacing: -1px;
+                float: right;
+                line-height: 0.9;
                 background-image: url("../assets/models/bkg\ partern\ 4.jpg");
                 background-size: 700px 450px;
                 font-family: "myriad Pro";
@@ -1014,7 +1014,7 @@ u{
         display: inline-block;
         width: 373px;
         padding: 2px;
-        margin-left: -5px;
+        margin-left: -65px;
         margin-top: 459px;
         height: 400px;
         object-fit: cover;
@@ -1025,7 +1025,7 @@ u{
         display: inline-block;
         margin: auto;
         width: 580px;
-        margin-left: 178px;
+        margin-left: 228px;
         margin-top: -521px;
         height: 490px;
         object-fit: cover;
@@ -1034,8 +1034,8 @@ u{
     .img-col3 {
         display: inline-block;
         margin: auto;
-        width: 560px;
-        margin-left: 530px;
+        width: 660px;
+        margin-right: 230px;
         margin-top: -439px;
         height: 410px;
         position: absolute;
@@ -1081,27 +1081,33 @@ u{
         width: 39%;
         
     }
-    
+    .protection ul{
+        list-style-position: inside;
+        justify-content: center;
+        margin-top: -83px;
+        margin-left: -9px;
+        width: 34%;
+        position: absolute;
+    }
     .professional ul {
         list-style-position: inside;
         justify-content: center;
-        margin-top: -326px;
+        margin-top: -144px;
         margin-left: 329px;
         width: 34%;
+        position: absolute;
     }
     
     .consultant ul{
         list-style-position: inside;
         justify-content: center;
-        margin-top: -400px;
-        margin-right: 15px;
-        margin-left: 654px;
-        float: left;
+        margin-top: -182px;
+        margin-left: 774px;
         width: 35%;
-        -webkit-columns: 150px 3;
-        -moz-columns: 50px 3;
-        column-gap: 50px;
-        columns: 250px 3;
+        position: absolute;
+    }
+    .footer{
+        margin-top: 333px;
     }
 
 }
