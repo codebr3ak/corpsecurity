@@ -560,7 +560,7 @@ u{
 
 /*LAPTOP SCREENS 1024px*/
 
-@media only screen and (max-device-width: 1024px),(min-width: 1000px) {
+@media only screen and (max-device-width: 1024px){
     .body{
         max-width: 100%;
         overflow-x: hidden;
@@ -903,7 +903,7 @@ u{
     .fguard{
         position: absolute;
         left: -1em;
-        top: 1366px;
+        top: 1566px;
         height: 524px;
         object-fit: cover;
     }
