@@ -597,8 +597,100 @@
         margin-bottom: -673px;
     }
     }
+    /*LAPTOP MEDIUM SCREENS 1366px ""if device width is greater than or equals to 1366px, then apply the CSS defined in this block.""*/
+@media only screen and (max-width: 1366px){
+        .images1{
+            text-align: center;
+            margin-top: 10px;
+            margin: 80px 20px;
+            white-space: nowrap;
+            margin-right: 700px;
+            margin: 1px;
+            height: 13px;
+        }
+        .images1 li{
+            width: 2%;
+            margin: 30px 5%;
+            position: relative;
+            margin-left: 35px;
+            bottom: 31px;
+        } 
+       
+        .booking{
+            width: 443px;
+        }
+        .cameraft{
+            margin-right: -73px;
+        }
+        .img-col1{
+            margin-left: 602px;
+        }
+        .img-col2{
+            margin-left: 790px;
+        }
+        #img3{
+            margin-left: 1033px;
+        }
+        .navbar-header{
+            margin-bottom: 12px;
+        }
+        .banner_org2{
+            width: 50%;
+        }
+        .banner2 {
+            bottom: 0px;
+            position: relative;
+            max-width: 98%; 
+            margin-left: -23px;
+        }
+        .minor_columns{
+            font-size: 32px;
+        }
+        .protection{
+            right: 463px;
+        }
+        .prof{
+            right: 253px;
+        }
+        .cons{
+            right: 33px;
+        }
+    }
+@media screen and (max-width: 1440px){
+        .banner_org2{
+            width: 50%;
+        }
+        .banner2 {
+            bottom: 0px;
+            position: relative;
+            width: 100%; 
+            left: 43px;
+        }
+        .cameraft{
+            right: 243px;
+            bottom: 4px;
+        }
+        .img-col1{
+            margin-left: 622px;
+        }
+        .protection{
+            margin-left: 682px;
+        }
+        .img-col2{
+            margin-left: 833px;
+        }
+        .prof{
+            margin-left: 942px;
+        }
+        .img-col3 {
+            margin-left: 1082px;
+        }
+        .cons{
+            margin-left: 1182px;
+        }
+    }
       /*LAPTOP MEDIUM SCREENS 1024px ""if device width is greater than or equals to 1024px, then apply the CSS defined in this block.""*/
-    @media screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
       body {
             max-width: 100%;
             overflow-x: hidden;
@@ -721,8 +813,7 @@
             background-image: url("../assets/models/bkg\ partern\ 4.jpg");
             background-size: 600px 350px;
             height: 410px;
-            width: 49%;
-            padding-bottom: 590px;
+            width: 50%;
             margin-left: 494px;
         }
         
@@ -749,11 +840,11 @@
             background: #fbfcfe;
             color: #0f1e31;
             margin-left: 55px;
-            width: 550px;
+            width: 400px;
             float: right;
             font-weight: bolder;
             font-family: 'Open Sans';
-            margin-right: 8px;
+            margin-right: 28px;
             margin-top: 55px;
             border-radius: 20px;
         }
@@ -861,7 +952,7 @@
         }
         
         .coreb{
-            max-width: 9cm;
+            max-width: 8cm;
             margin-top: 15em;
             margin-left: 50px;
         }
@@ -1114,20 +1205,20 @@
         
         .protection{
            margin-left: 388px;
-           margin-top: 533px;
+           margin-top: 483px;
            position: absolute;
            width: 20%;
         }
         
         .prof{
             margin-left:558px;
-            margin-top: 533px;
+            margin-top: 483px;
             position: absolute;
             width: 20%;
         }
         
         .cons{
-            margin-top: 533px;
+            margin-top:483px;
             position: absolute;
             width: 20%;
         }
@@ -1156,103 +1247,15 @@
             background-size: 700px 450px;
             font-family: 'Open Sans';
         }
-        
-        
-        .img-col1{
-            display: inline-block;
-            margin: auto;
-            width: 273px;
-            padding: 2px;
-            margin-left: -327px;
-            margin-top: 479px;
-            height: 300px;
-            object-fit: cover;
-             }
-        
-        .img-col2 {
-                display: inline-block;
-                margin: auto;
-                width: 480px;
-                margin-left: 437px;
-                margin-top: -421px;
-                height: 390px;
-                object-fit: cover;
-                 }
-        .img-col3 {
-                    display: inline-block;
-                    margin: auto;
-                    width: 460px;
-                    margin-left: 670px;
-                    margin-top: -399px;
-                    height: 321px;
-                    object-fit: cover;
-                     }
-        
-       
-    }
-    
-    /*LAPTOP MEDIUM SCREENS 1366px ""if device width is greater than or equals to 1366px, then apply the CSS defined in this block.""*/
-    @media only screen and (max-width: 1366px){
-        .images1{
-            text-align: center;
-            margin-top: 10px;
-            margin: 80px 20px;
-            white-space: nowrap;
-            margin-right: 700px;
-            margin: 1px;
-            height: 13px;
+        .row3{
+            margin-left: -323px;
+            width: 123px;
+            height: 823px;
         }
-        .images1 li{
-            width: 2%;
-            margin: 30px 5%;
-            position: relative;
-            margin-left: 35px;
-            bottom: 31px;
-        } 
-       
-        .booking{
-            width: 443px;
-        }
-        .cameraft{
-            margin-right: -73px;
-        }
-        .img-col1{
-            margin-left: 602px;
-        }
-        .img-col2{
-            margin-left: 790px;
-        }
-        #img3{
-            margin-left: 1033px;
-        }
-        .navbar-header{
-            margin-bottom: 12px;
-        }
-        .banner_org2{
-            width: 50%;
-        }
-        .banner2 {
-            bottom: 0px;
-            position: relative;
-            max-width: 98%; 
-            margin-left: -23px;
-        }
-        .minor_columns{
-            font-size: 32px;
-        }
-        .protection{
-            right: 463px;
-        }
-        .prof{
-            right: 253px;
-        }
-        .cons{
-            right: 33px;
-        }
-    }
-    
+                   
+    } 
     /*LAPTOP MEDIUM SCREENS 768px*/
-    @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
         body {
             max-width: 100%;
             overflow-x: hidden;
@@ -1840,135 +1843,4 @@
             margin-left: -413px;
         }
     }
-    @media screen and (max-width: 1440px){
-        .banner_org2{
-            width: 50%;
-        }
-        .banner2 {
-            bottom: 0px;
-            position: relative;
-            width: 100%; 
-            left: 43px;
-        }
-        .cameraft{
-            right: 243px;
-            bottom: 4px;
-        }
-        .img-col1{
-            margin-left: 622px;
-        }
-        .protection{
-            margin-left: 682px;
-        }
-        .img-col2{
-            margin-left: 833px;
-        }
-        .prof{
-            margin-left: 942px;
-        }
-        .img-col3 {
-            margin-left: 1082px;
-        }
-        .cons{
-            margin-left: 1182px;
-        }
-    }
-    @media screen  and (max-device-width: 1200px){
-        .banner_org2{
-            background-image: url(../assets/models/bkg\ partern\ 4.jpg);
-            background-size: 600px 350px;
-            height: 510px;
-            width: 100%;
-            width: 920px;
-            padding-bottom: 590px;
-            margin-left: 512px;
-            max-width: 55%;
-        }
-        
-        .banner2 {
-            bottom: 0px;
-            position: relative;
-            max-width: 100%;
-            }
-        .cameraft{
-                width: 80%;
-                right: 343px;
-                top: -1px;
-            }
-        .navbar-header{
-                width: 95%;
-            }
-        .footer{
-                width: 100%;
-                }
-        .par2{
-                width: 40%;
-            }
-        .minor_columns{
-                margin-top: 15px;
-                margin-left: 23px;
-                margin-bottom: 15px;
-                border-spacing:0 5px;
-                width : 28%;
-                height: 190px;
-                background-color: #3796da;
-                color: #3796da;
-                font-weight: 800;
-                font-size: 28px; 
-                padding: 5px;
-                text-align: right;
-                line-height: 0.9;
-                background-image: url("../assets/models/bkg\ partern\ 4.jpg");
-                background-size: 700px 450px;
-                font-family: 'Open Sans';
-            }
-        .container2{
-                margin-left: 500px;
-            }
-        .img-col1{
-                margin-left: 453px;
-            }
-        .protection{
-                margin-right: 53px;
-            }
-         .img-col2{
-                margin-left: 653px;
-            }
-        .prof{
-                margin-right: -35px;
-                width: 20%;
-            }
-        .img-col3{
-                margin-left: 873px;
-            }
-        .prof{
-                margin-right: -35px;
-                width: 20%;
-            }        
-        }
-    @media only screen  and (max-device-width: 1280px){
-        .navbar-header{
-            width: 99%;
-        }    
-        .cameraft{
-            width: 993px;
-            margin-right: 3px;
-            }
-            /* .banner2{
-                margin-left: -69px;
-                } */
-            .banner_org2{
-                width: 55%;
-                margin-left: 563px;
-            }
-            .img-col3{
-                margin-left: 963px;
-            }
-            .img-col2{
-                margin-left: 763px;
-            }
-            .img-col1{
-                margin-left: 593px;
-            }
-            
-        }
+
