@@ -4,7 +4,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-weight: bold;
+    font-weight: bold;
 }
 
 .body{
@@ -422,7 +422,7 @@ u{
 .footer{
     /* position: fixed; */
     background-image: url("../assets/models/bkg\ partern\ 4.jpg");
-    width: 100%;
+    width: 99%;
     margin-top: 8.2em;
     left: 0;
     bottom: 0;
@@ -447,9 +447,7 @@ u{
             padding: 12px;
             justify-content: space-between;
             margin-right: 223px;
-            width:87%;
-            
-           
+            width:87%;           
         }
         
         .minor_columns
@@ -879,11 +877,11 @@ u{
         top: -271px;
         padding: 0;
         margin: 0;
-        width: 844px;
+        width: 744px;
     }
     .ysecurity{
         margin-right: 222px;
-        left: -50px;
+        left: -30px;
         margin: 0;
         position: relative;
     }
@@ -892,6 +890,7 @@ u{
         right: 140px;
         left: -72px;
         top: -273px;
+        width: 483px;
         padding: 0;
         margin: 0;
     }
@@ -979,10 +978,9 @@ u{
                 margin-left: 20px;
                 margin-bottom: -650px;
                 padding: 0px;
-                width: 96%;
-                text-indent: 2%;
+                width: 90%;
+                text-indent: 12%;
                 justify-content: space-between;
-                margin-right: 223px;
             }
             
      .minor_columns
@@ -998,7 +996,6 @@ u{
                 font-size: 43px; 
                 padding: 5px;
                 text-align: right;
-                float: right;
                 line-height: 0.9;
                 background-image: url("../assets/models/bkg\ partern\ 4.jpg");
                 background-size: 700px 450px;
@@ -1012,7 +1009,7 @@ u{
         display: inline-block;
         width: 373px;
         padding: 2px;
-        margin-left: -65px;
+        margin-left: -70px;
         margin-top: 459px;
         height: 400px;
         object-fit: cover;
@@ -1023,7 +1020,7 @@ u{
         display: inline-block;
         margin: auto;
         width: 580px;
-        margin-left: 228px;
+        margin-left: 218px;
         margin-top: -521px;
         height: 490px;
         object-fit: cover;
@@ -1033,7 +1030,7 @@ u{
         display: inline-block;
         margin: auto;
         width: 660px;
-        margin-right: 230px;
+        margin-right: 270px;
         margin-top: -439px;
         height: 410px;
         position: absolute;
@@ -1090,7 +1087,7 @@ u{
     .professional ul {
         list-style-position: inside;
         justify-content: center;
-        margin-top: -144px;
+        margin-top: -104px;
         margin-left: 329px;
         width: 34%;
         position: absolute;
@@ -1099,13 +1096,13 @@ u{
     .consultant ul{
         list-style-position: inside;
         justify-content: center;
-        margin-top: -182px;
-        margin-left: 774px;
+        margin-top: -122px;
+        margin-left: 824px;
         width: 35%;
         position: absolute;
     }
     .footer{
-        margin-top: 333px;
+        margin-top: 423px;
     }
 
 }
