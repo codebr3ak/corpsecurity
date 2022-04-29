@@ -945,3 +945,18 @@ button {
         margin-left: 123px;
     }
 }
+@media only screen and (max-width: 1440px){
+    .images1 li{
+        margin-bottom: -361px;
+        margin-left: -12px;
+    }
+    .contact{
+        width: 423px;
+        margin-left: 823px;
+    }
+    .map{
+        padding: 0em;
+        margin: 3px;
+        height: 623px;
+    }
+}
