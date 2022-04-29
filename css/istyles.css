@@ -1188,3 +1188,19 @@ u{
         margin-top: 60px;
     }
 }
+
+@media only screen and (max-width: 1280px){
+    .about_b{
+        margin-left: -223px;
+    }
+    .cameraft{
+        margin-right: 53px;
+    }
+    .fguard{
+        margin-top: 466px;
+    }
+    .guardss{
+        margin-top: 395px;
+        margin-right: -193px;
+    }
+}
