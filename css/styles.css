@@ -110,7 +110,7 @@ div.elem-group.inlined input {
 .images1 li{
     height: 577px;
     width: 998px;
-    bottom: 527px;
+    bottom: 463px;
     position: absolute;
     margin-left: 123px;
     }
@@ -930,22 +930,25 @@ button {
 }
 @media screen and (max-width: 1366px){
     .images1 li {
-        width: 100%;
-        bottom: -222px;
+        width: 30%;
+        margin-bottom: 0px;
         position: absolute;
         margin-right: 0px;
+        }
+    .contact{
+        width: 323px;
         }
 }
 @media only screen and (max-width: 1440px){
     .images1 li {
-        height: 577px;
+        height: 677px;
         width: 998px;
-        bottom: 478px;
+        bottom: 365px;
         position: absolute;
         margin-left: 123px;
     }
 }
-@media only screen and (max-width: 1440px){
+/* @media only screen and (max-width: 1440px){
     .images1 li{
         margin-bottom: -361px;
         margin-left: -12px;
@@ -959,4 +962,4 @@ button {
         margin: 3px;
         height: 623px;
     }
-}
+} */

@@ -1202,14 +1202,14 @@
             margin: 1px;
             height: 13px;
         }
-        
         .images1 li{
             width: 2%;
             margin: 30px 5%;
             position: relative;
             margin-left: 35px;
             bottom: 31px;
-        }
+        } 
+       
         .booking{
             width: 443px;
         }
@@ -1222,8 +1222,8 @@
         .img-col2{
             margin-left: 790px;
         }
-        .img-col3{
-            margin-left: 1020px;
+        #img3{
+            margin-left: 1033px;
         }
         .navbar-header{
             margin-bottom: 12px;
@@ -1972,4 +1972,3 @@
             }
             
         }
-    
