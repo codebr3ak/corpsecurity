@@ -1188,3 +1188,54 @@ u{
         margin-top: 60px;
     }
 }
+
+@media only screen and (max-width: 1280px){
+    .about_b{
+        margin-left: -223px;
+    }
+    .cameraft{
+        margin-right: 53px;
+    }
+    .fguard{
+        margin-top: 466px;
+    }
+    .guardss{
+        margin-top: 395px;
+        margin-right: -193px;
+    }
+    .ysecurity{
+        margin-left: -23px;
+    }
+    .protection{
+        margin-top: 63px;
+    }
+    .consultant{
+        width: 91%;
+        margin-left: -183px;
+        margin-top: 90px;
+    }
+    .professional{
+        margin-top: 80px;
+    }
+    .services{
+        margin-bottom: -83px;
+    }
+    .minor_columns{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-spacing:0 5px;
+        width : 30%;
+        height: 190px;
+        background-color: #3796da;
+        color: #3796da;
+        font-weight: 800;
+        font-size: 38px; 
+        padding: 5px;
+        text-align: right;
+        float: left;
+        line-height: 0.9;
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 700px 450px;
+        font-family: "myriad Pro";
+    }
+}

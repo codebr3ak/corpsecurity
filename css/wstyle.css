@@ -1,5 +1,5 @@
 /*LAPTOP MEDIUM SCREENS 1440px "if device width is greater than or equals to 1440px, then apply the CSS defined in this block."*/
-@media screen and (max-width: 1600px){
+@media screen  and (max-device-width: 1600px){
     body {
         max-width: 100%;
         overflow-x: hidden;
@@ -1873,4 +1873,103 @@
             margin-left: 1182px;
         }
     }
+    @media screen  and (max-device-width: 1200px){
+        .banner_org2{
+            background-image: url(../assets/models/bkg\ partern\ 4.jpg);
+            background-size: 600px 350px;
+            height: 510px;
+            width: 100%;
+            width: 920px;
+            padding-bottom: 590px;
+            margin-left: 512px;
+            max-width: 55%;
+        }
+        
+        .banner2 {
+            bottom: 0px;
+            position: relative;
+            max-width: 100%;
+            }
+        .cameraft{
+                width: 80%;
+                right: 343px;
+                top: -1px;
+            }
+        .navbar-header{
+                width: 95%;
+            }
+        .footer{
+                width: 100%;
+                }
+        .par2{
+                width: 40%;
+            }
+        .minor_columns{
+                margin-top: 15px;
+                margin-left: 23px;
+                margin-bottom: 15px;
+                border-spacing:0 5px;
+                width : 28%;
+                height: 190px;
+                background-color: #3796da;
+                color: #3796da;
+                font-weight: 800;
+                font-size: 28px; 
+                padding: 5px;
+                text-align: right;
+                line-height: 0.9;
+                background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+                background-size: 700px 450px;
+                font-family: 'Open Sans';
+            }
+        .container2{
+                margin-left: 500px;
+            }
+        .img-col1{
+                margin-left: 453px;
+            }
+        .protection{
+                margin-right: 53px;
+            }
+         .img-col2{
+                margin-left: 653px;
+            }
+        .prof{
+                margin-right: -35px;
+                width: 20%;
+            }
+        .img-col3{
+                margin-left: 873px;
+            }
+        .prof{
+                margin-right: -35px;
+                width: 20%;
+            }        
+        }
+    @media only screen  and (max-device-width: 1280px){
+        .navbar-header{
+            width: 99%;
+        }    
+        .cameraft{
+            width: 993px;
+            margin-right: 3px;
+            }
+            /* .banner2{
+                margin-left: -69px;
+                } */
+            .banner_org2{
+                width: 55%;
+                margin-left: 563px;
+            }
+            .img-col3{
+                margin-left: 963px;
+            }
+            .img-col2{
+                margin-left: 763px;
+            }
+            .img-col1{
+                margin-left: 593px;
+            }
+            
+        }
     
