@@ -1801,7 +1801,7 @@ u{
         font-family: "myriad Pro";
     }
 }
-/*LAPTOP SCREENS 414px*/
+/*MOBILE SCREENS 414px*/
 @media only screen and (max-width: 414px){
     .body{
         max-width: 100%;
@@ -1848,32 +1848,21 @@ u{
     .navbarr{
         display: none;
     }
+    .nav1{
+        display: none;
+    }
     .img-responsive {
         height: auto;
         width: auto;
         max-height: 72px;
         max-width: 250px;
+        
+    }
+    .images{
+        display: none;
     }
     
-    .column {
-        font-family: "Myriad Pro";
-        font-size: 19px;
-        text-align: justify;
-        line-height: 35px;
-        -webkit-columns: 250px 3;
-        -moz-columns: 250px 3;
-        column-gap: 50px;
-        columns: 250px 3;
-        margin-left: 228px;
-        margin-right: 88px;
-    
-        column-rule-width: 2px;
-        column-rule-color: #3796da;
-    
-        -webkit-column-rule-style: dotted;
-        -moz-column-rule-style: dotted;
-        column-rule-style: dotted;
-    }
+   
     
     .vertical-line{
         display: inline-block;
@@ -1907,14 +1896,15 @@ u{
     .service_b{
         color: #3796DA;
         padding: 30px;
-        font-size: 50px;
+        font-size: 60px;
         position: absolute;
-        left: 1em;
-        top: 150px;
+        left: 70px;
+        top: 60px;
         font-weight: bold;
         text-decoration-color: #3796DA;
         text-underline-offset: 13px;
         font-family: 'Open Sans';
+        text-align: center;
     }
     
     .about_b{
@@ -1964,8 +1954,9 @@ u{
         vertical-align: baseline;
         white-space: nowrap;
         top: 170px;
-        margin-left: 95px;
+        margin-left: -115px;
         margin-top: 392px;
+        border-radius: 18px;
     }
     
     .button-7 {
@@ -2102,7 +2093,23 @@ u{
         padding-top: 18px;
         margin-right: 57px;
     }
-    
+    .column {
+        font-family: "Myriad Pro";
+        font-size: 19px;
+        text-align: justify;
+        line-height: 35px;
+        -webkit-columns: 250px 3;
+        -moz-columns: 250px 3;
+        column-gap: 50px;
+        columns: 250px 3;
+        margin-left: 28px;
+        margin-right: 78px;
+        column-rule-width: 2px;
+        column-rule-color: #3796da;
+        -webkit-column-rule-style: dotted;
+        -moz-column-rule-style: dotted;
+        column-rule-style: dotted;
+    }
     .move{
         margin-top: -16em;
         list-style-type: none;
@@ -2138,7 +2145,7 @@ u{
         text-align: center;
         display: block;
         right: 26em;
-        top: 2212px;
+        top: 2255px;
         height: 225px;
         object-fit: cover;
         width: 212px;
@@ -2206,32 +2213,64 @@ u{
        display: inline-block;
     }
        
-    .container2
+    /* .container2
             {
-                display:flex;
-                margin-top: 2px;
-                margin-left: 20px;
+                display: inline-block;
                 margin-bottom: -650px;
                 padding: 0px;
-                width: 90%;
+                width: 20%;
                 text-indent: 12%;
-                justify-content: space-between;
-            }
-            
+            } */
+     #minor1{
+        width: 405px;
+        height: 150px;
+        margin-top: -130px;
+        margin-bottom: 223px;
+        font-size: 42px;
+        position: absolute;
+     }  
+     #minor2{
+        width: 405px;
+        height: 150px;
+        margin-top: 227px;
+        margin-bottom: 223px;
+        font-size: 42px;
+        position: absolute;
+     } 
+     #minor3{
+        width: 405px;
+        height: 150px;
+        margin-top: 735px;
+        margin-bottom: 223px;
+        font-size: 42px;
+        position: absolute;
+     }      
+     #img{
+         bottom: -90px;
+         width: 282px;
+         height: 330px;
+         left: 33px;
+     }
+     #img2{
+         margin-right: 1230px;
+         width: 220px;
+         top: 1384px;
+         position: absolute;
+         height: 523px;
+     }
+     #img3{
+        margin-right: 570px;
+        width: 620px;
+        top: 2093px;
+        position: absolute;
+        height: 523px;
+    }
      .minor_columns
             {
-                margin-top: 15px;
-                margin-bottom: 15px;
-                border-spacing:0 5px;
-                width : 31%;
-                height: 190px;
+                height: 390px;
                 background-color: #3796da;
                 color: #3796da;
-                font-weight: 800;
-                font-size: 43px; 
-                padding: 5px;
                 text-align: right;
-                line-height: 0.9;
                 background-image: url("../assets/models/bkg\ partern\ 4.jpg");
                 background-size: 700px 450px;
                 font-family: "myriad Pro";
@@ -2240,7 +2279,7 @@ u{
     
     
     
-    .img-col1{
+    /* .img-col1{
         display: inline-block;
         width: 373px;
         padding: 2px;
@@ -2270,7 +2309,7 @@ u{
         height: 410px;
         position: absolute;
               }
-    
+     */
     .tripple{
         margin-bottom: 3px;
     }
@@ -2298,6 +2337,9 @@ u{
         width: 91%;
         display: inline-block;
     }
+    .navbar-brand{
+        margin-bottom: 43px;
+    }
     
     .navbar-header2{
         margin-bottom: -66px;
@@ -2314,35 +2356,47 @@ u{
     .protection ul{
         list-style-position: inside;
         justify-content: center;
-        margin-top: -83px;
-        margin-left: -9px;
-        width: 34%;
+        margin-top: -30px;
+        margin-left: -50px;
+        width: 50%;
         position: absolute;
     }
     .professional ul {
         list-style-position: inside;
         justify-content: center;
-        margin-top: -104px;
-        margin-left: 329px;
-        width: 34%;
+        margin-top: 311px;
+        margin-left: 10px;
+        width: 55%;
         position: absolute;
     }
     
     .consultant ul{
         list-style-position: inside;
         justify-content: center;
-        margin-top: -122px;
-        margin-left: 824px;
-        width: 35%;
+        margin-top: 820px;
+        margin-left: -54px;
+        width: 50%;
         position: absolute;
+        -moz-columns: 250px 3;
+        column-gap: 50px;
+        columns: 250px 3;
+        column-rule-width: 2px;
     }
     .footer{
         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
         width: 100%;
         background-size: 600px 450px;
-        margin-top: 90px;   
+        margin-top: 1470px;   
         height: 170px;
     }
+    #foot{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 80px;   
+        height: 170px;
+    }
+    
     .ficon{
         display: none;
     }
@@ -2350,4 +2404,165 @@ u{
         display: none;
     }
 
+}
+/*MOBILE SCREEN 360px*/
+@media screen and (max-width: 360px){
+    .about_b{
+        margin-left: -220px;
+        text-align: center;
+    }
+    .iconv{
+        margin-left: 391px;
+        width: 1000px;
+        height: 633px;
+        margin-top: 323px;
+    }
+    .button-7{
+        margin-top: 393px;
+    }
+    .guardss{
+        display: none;
+    }
+    .csquote{
+        position: absolute;
+        margin-left: -883px;
+        width: 120px;
+        height: 170px;
+        margin-top: 5px;
+    }
+    .banner{
+        bottom: 12;
+        position: relative;
+    }
+    
+    .banner_org{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 600px 350px;
+        height: 510px;
+        padding-bottom: 590px;
+        max-width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .banner img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #minor1, #minor2, #minor3{
+        width: 100%;
+    }
+    .service_b{
+        left: 50px;
+    }
+    .button-6{
+        right : 80px;
+        text-align: center;
+    }
+    .column {
+        font-family: "Myriad Pro";
+        font-size: 15px;
+        text-align: justify;
+        line-height: 35px;
+        -webkit-columns: 250px 3;
+        -moz-columns: 250px 3;
+        column-gap: 50px;
+        columns: 250px 3;
+        margin-left: 38px;
+        margin-right: 38px;
+        column-rule-width: 2px;
+        column-rule-color: #3796da;
+        -webkit-column-rule-style: dotted;
+        -moz-column-rule-style: dotted;
+        column-rule-style: dotted;
+        margin-bottom: 33px;
+    }
+    .row{
+        margin-left: -23px;
+    }
+    .protection ul{
+        list-style-position: inside;
+        justify-content: center;
+        margin-top: -34px;
+        margin-left: -50px;
+        width: 50%;
+        position: absolute;
+        font-size: 11px;
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    }
+    .professional ul {
+        list-style-position: inside;
+        justify-content: center;
+        margin-top: 311px;
+        margin-left: 10px;
+        width: 50%;
+        position: absolute;
+        font-size: 11px;
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    }
+    
+    .consultant ul{
+        list-style-position: inside;
+        justify-content: center;
+        margin-top: 890px;
+        margin-left: -54px;
+        width: 63%;
+        position: absolute;
+        -moz-columns: 250px 3;
+        column-gap: 50px;
+        columns: 250px 3;
+        column-rule-width: 2px;
+        font-size: 11px;
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    
+    }
+    #minor1{
+        height: 150px;
+        margin-top: -130px;
+        margin-bottom: 223px;
+        font-size: 48px;
+        position: absolute;
+     }  
+     #minor2{
+        height: 150px;
+        margin-top: 227px;
+        margin-bottom: 223px;
+        font-size: 42px;
+        position: absolute;
+     } 
+     #minor3{
+        height: 150px;
+        margin-top: 815px;
+        margin-bottom: 223px;
+        font-size: 42px;
+        position: absolute;
+     }      
+     #img{
+         top: 91px;
+         bottom: -90px;
+         width: 282px;
+         height: 330px;
+         left: 33px;
+     }
+     #img2{
+         margin-right: 1230px;
+         width: 220px;
+         top: 1464px;
+         position: absolute;
+         height: 523px;
+     }
+     #img3{
+        margin-right: 694px;
+        width: 410px;
+        top: 2193px;
+        position: absolute;
+        height: 383px;
+    }
+    #foote{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 1430px;   
+        height: 170px;
+    }
 }
