@@ -1922,11 +1922,13 @@ u{
         padding: 30px;
         font-size: 45px;
         position: absolute;
-        margin-left: -250px;
-        margin-top: 60px;
+        margin-left: -260px;
+        margin-top: 10px;
+        font-size: 53px;
         font-weight: bolder;
         text-decoration-color: #3796DA;
         text-underline-offset: 10px;
+
     }
     
     .underline{
@@ -2035,13 +2037,10 @@ u{
         box-shadow: none;
     }
     
-    .iconm{
-        display: none;
-    }
     .iconv{
-        margin-left: 263px;
-        width: 1153px;
-        height: 733px;
+        margin-left: 343px;
+        width: 1053px;
+        height: 633px;
         margin-top: 323px;
        
     }
@@ -2153,9 +2152,9 @@ u{
         list-style-type: none;
     }
     
-    .border-right{
-        border-right: 1px solid black;
-    }
+    /* .border-right{
+        width: 100%;
+    } */
     
     .parag1{
         margin-top: 30px;
@@ -2199,7 +2198,8 @@ u{
     
     .fut{
         color: rgb(255, 255, 255);
-    }
+        display: none;
+        }
     
     .services{
         margin-top: 89px;
@@ -2337,7 +2337,11 @@ u{
         position: absolute;
     }
     .footer{
-        margin-top: 100px;
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 90px;   
+        height: 170px;
     }
     .ficon{
         display: none;
