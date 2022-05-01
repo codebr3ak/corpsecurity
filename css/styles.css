@@ -1911,3 +1911,13 @@ button {
     }
     
 }
+@media only screen and (max-width: 360px){
+    .booking{
+        width: 330px;
+        text-align: center;
+    }
+    .map{
+        width: 100%;
+        margin-left: 7px;
+    }
+}
