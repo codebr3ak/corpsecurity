@@ -2035,11 +2035,15 @@ u{
         box-shadow: none;
     }
     
-    .imagesb{
-        width: 100%;
-        height: 300px;
-        object-fit: cover;  
-        right: 623px;
+    .iconm{
+        display: none;
+    }
+    .iconv{
+        margin-left: 263px;
+        width: 1153px;
+        height: 733px;
+        margin-top: 323px;
+       
     }
     
     .cameraft{
