@@ -49,10 +49,16 @@
     }
     
     .img-responsive {
-        height: auto;
-        width: auto;
-        max-height: 72px;
+        max-height: 100px;
         max-width: 250px;
+        margin-left: -23px;
+        margin-bottom: -65px;
+    }
+    .navbarr, .nav1{
+        width: 1500px;
+        margin-left: 60px;
+        margin-bottom: 42px;
+
     }
     
     .column {
@@ -277,7 +283,7 @@
         margin: auto;
         width: 50%;
         margin-top: 0;
-        top: 95px;
+        top: 143px;
         right: 42em;}
     
     .flex-container {
@@ -368,7 +374,7 @@
         text-align: center;
         display: block;
         right: 37em;
-        top: 920px;
+        top: 967px;
         height: 615px;
         object-fit: cover;
     }
@@ -376,7 +382,7 @@
     .fguard{
         position: absolute;
         left: 29em;
-        top: 1010px;
+        top: 1060px;
         height: 524px;
         object-fit: cover;
     }
@@ -561,11 +567,11 @@
         margin-top: -331px;
         margin-left: 1348px;
         float: center;
-        width: 2%;
+        width: 30%;
     }
     }
 /*LAPTOP SCREENS 1600px*/
-@media screen and (max-width: 1600px){
+@media only screen and (max-width: 1600px){
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -615,10 +621,15 @@ nav li a:hover{
 }
 
 .img-responsive {
-    height: auto;
-    width: auto;
     max-height: 72px;
-    max-width: 250px;
+    max-width: 150px;
+    margin-left: -23px;
+    margin-bottom: -75px;
+}
+.navbarr, .nav1{
+    width: 1200px;
+    margin-left: 60px;
+    margin-bottom: 42px;
 }
 
 .column {
@@ -843,7 +854,7 @@ u{
     margin: auto;
     width: 50%;
     margin-top: 0;
-    top: 95px;
+    top: 141x;
     right: 42em;}
 
 .flex-container {
@@ -934,7 +945,7 @@ u{
     text-align: center;
     display: block;
     right: 27em;
-    top: 1108px;
+    top: 1156px;
     height: 555px;
     object-fit: cover;
 }
@@ -942,7 +953,7 @@ u{
 .fguard{
     position: absolute;
     left: 20em;
-    top: 1139px;
+    top: 1187px;
     height: 524px;
     object-fit: cover;
 }
@@ -1127,8 +1138,140 @@ u{
     margin-top: -331px;
     margin-left: 1128px;
     float: center;
-    width: 30%;
+    width: 29%;
 }
+}
+/*LAPTOP SCREENS 1440px*/
+@media only screen and (max-width: 1440px){
+    .fguard{
+        margin-left: -33px;
+        margin-top: 101px;;
+    }
+    .guardss{
+        margin-top: 101px;
+        margin-right: -125px;
+    }
+    .button-7{
+        margin-top: 3px;
+    }
+    .cameraft{
+        right: 713px;
+    }
+    .consultant{
+        margin-left: -62px;
+        width: 90%;
+    }
+    .minor_columns{
+        width: 31%;
+        margin-right: 28px;
+    }
+    .footer{
+        width: 99%;
+    }
+}
+/*LAPTOP SCREENS 1366px*/
+@media only screen and (max-width: 1366px){
+    .fguard{
+        margin-left: -13px;
+        margin-top: 298px;
+        height: 453px;
+        width: 358px;
+    }
+    .guardss{
+        margin-top: 227px;
+        margin-right: -102px;
+    }
+    .button-7{
+        margin-top: 3px;
+
+    }  
+    .about_b{
+        left: 273px;
+    }
+    .cameraft{
+        left: -167px;
+    }
+    .csquote{
+        left: 553px;
+        width: 100%;
+        height: auto;
+    }
+    #img2 {
+        right: -1223px;
+        width: 413px;
+      }
+    #img3{
+        right: -963px;
+        width: 544px;
+      }
+    .protection{
+        font-size: 12px;
+        width: 86%;
+        margin-top: -34px;
+    }
+    .consultant{
+        width: 86%;
+        margin-left: -123px;
+        font-size: 12px;
+        margin-top: 95px;
+    }
+    .professional{
+        width: 100%;
+        margin-left: -53px;
+        font-size: 12px;
+        margin-top: 60px;
+    }
+}
+/*LAPTOP SCREENS 1280px*/
+@media only screen and (max-width: 1280px){
+    .about_b{
+        margin-left: -223px;
+    }
+    .cameraft{
+        margin-right: 53px;
+    }
+    .fguard{
+        margin-top: 466px;
+    }
+    .guardss{
+        margin-top: 395px;
+        margin-right: -193px;
+    }
+    .ysecurity{
+        margin-left: -23px;
+    }
+    .protection{
+        margin-top: 63px;
+    }
+    .consultant{
+        width: 91%;
+        margin-left: -183px;
+        margin-top: 90px;
+    }
+    .professional{
+        margin-top: 80px;
+    }
+    .services{
+        margin-bottom: -83px;
+    }
+    .minor_columns{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-spacing:0 5px;
+        width : 30%;
+        height: 190px;
+        background-color: #3796da;
+        color: #3796da;
+        font-weight: 800;
+        font-size: 38px; 
+        padding: 5px;
+        text-align: right;
+        float: left;
+        line-height: 0.9;
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 700px 450px;
+        font-family: "myriad Pro";
+    }
 }
 /*LAPTOP SCREENS 1024px*/
 @media only screen and (max-width: 1024px){
@@ -1176,10 +1319,15 @@ u{
     }
     
     .img-responsive {
-        height: auto;
-        width: auto;
         max-height: 72px;
-        max-width: 250px;
+        max-width: 150px;
+        margin-left: -23px;
+        margin-bottom: -75px;
+    }
+    .navbarr, .nav1{
+        width: 950px;
+        margin-left: 60px;
+        margin-bottom: 12px;
     }
     
     .column {
@@ -1247,15 +1395,22 @@ u{
     .about_b{
         color: #3796DA;
         padding: 30px;
-        font-size: 45px;
+        font-size: 43px;
         position: absolute;
-        margin-left: -350px;
+        margin-left: 350px;
         margin-top: 60px;
         font-weight: bolder;
         text-decoration-color: #3796DA;
         text-underline-offset: 10px;
     }
-    
+   
+    .iconv{
+        margin-left: 83px;
+        width: 1453px;
+        height: 933px;
+        margin-top: 92px;
+        position: absolute;       
+    }
     .underline{
         text-decoration-line: underline;
     }
@@ -1368,15 +1523,21 @@ u{
         right: 993px;
         width: 122px;       
     }
+    .images li{
+        margin-right: 3px; 
+    }
+    #img3{
+        margin-right: 290px;
+    }
     
     .cameraft{
         position: absolute;
         display: block;
         margin: auto;
         width: 3%;
-        margin-top: 0;
+        margin-top: 18px;
         top: 95px;
-        margin-left: -13px;}
+        margin-left: -5px;}
     
     .flex-container {
         display: flex;
@@ -1440,7 +1601,7 @@ u{
         top: -271px;
         padding: 0;
         margin: 0;
-        width: 744px;
+        width: 804px;
     }
     .ysecurity{
         margin-right: 222px;
@@ -1450,12 +1611,9 @@ u{
     }
     .mguard{
         position: absolute;
-        right: 140px;
-        left: -72px;
+        left: -112px;
         top: -273px;
-        width: 483px;
-        padding: 0;
-        margin: 0;
+        width: 493px;
     }
     
     .guardss{
@@ -1464,7 +1622,7 @@ u{
         text-align: center;
         display: block;
         right: 25em;
-        top: 970px;
+        top: 890px;
         height: 755px;
         object-fit: cover;
     }
@@ -1472,7 +1630,7 @@ u{
     .fguard{
         position: absolute;
         left: 3em;
-        top: 1199px;
+        top: 1120px;
         height: 924px;
         object-fit: cover;
     }
@@ -1658,150 +1816,596 @@ u{
     
     .consultant ul{
         list-style-position: inside;
-        justify-content: center;
         margin-top: -122px;
         margin-left: 824px;
-        width: 35%;
+        width: 40%;
         position: absolute;
     }
     .footer{
-        margin-top: 423px;
+        margin-top: 383px;
     }
 
 }
-/*LAPTOP SCREENS 1440px*/
-@media only screen and (max-width: 1440px){
-    .fguard{
-        margin-left: -33px;
-        margin-top: 101px;;
+/*LAPTOP SCREENS 1024px*/
+@media only screen and (max-width: 768px){
+    .body{
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .guardss{
-        margin-top: 101px;
-        margin-right: -125px;
+    
+    nav{
+        padding: 20px;
+        position: sticky;
+        top: 106px;
+        z-index: 1;
+            }
+    
+    nav ul{
+        white-space: nowrap;
+        margin: 0 auto;
+        text-align: center;
+        color: #0F1E31;
+    
     }
-    .button-7{
-        margin-top: 3px;
-    }
-    .cameraft{
-        right: 713px;
-    }
-    .consultant{
-        margin-left: -62px;
-        width: 90%;
-    }
-    .minor_columns{
-        width: 31%;
-        margin-right: 28px;
-    }
-    .footer{
-        width: 99%;
-    }
-}
-/*LAPTOP SCREENS 1366px*/
-@media only screen and (max-width: 1366px){
-    .fguard{
-        margin-left: -13px;
-        margin-top: 298px;
-        height: 453px;
-        width: 358px;
-    }
-    .guardss{
-        margin-top: 227px;
-        margin-right: -102px;
-    }
-    .button-7{
-        margin-top: 3px;
+    
+    nav li{
+        font-size: 18px;
+        width: 18%;
+        text-align: center;
 
-    }  
+        display: inline-block;
+    } 
+    
+    nav li a{
+        text-decoration: none;
+        color: #0F1E31;
+    }
+    
+    nav li a:hover{
+        text-decoration: underline;
+        color: #3796DA;
+    }
+    
+    .img-responsive {
+        max-height: 72px;
+        max-width: 150px;
+        margin-left: -23px;
+        margin-bottom: -75px;
+        margin-top: -42px;
+    }
+    .nav1{
+        width: 643px;
+        margin-left: 80px;
+        margin-bottom: 16px;
+        margin-top: -18px;
+    }
+    
+    .column {
+        font-family: "Myriad Pro";
+        font-size: 19px;
+        text-align: justify;
+        line-height: 35px;
+        -webkit-columns: 250px 3;
+        -moz-columns: 250px 3;
+        column-gap: 50px;
+        columns: 250px 3;
+        margin-left: 58px;
+        margin-right: 58px;
+    
+        column-rule-width: 2px;
+        column-rule-color: #3796da;
+    
+        -webkit-column-rule-style: dotted;
+        -moz-column-rule-style: dotted;
+        column-rule-style: dotted;
+    }
+    
+    .vertical-line{
+        display: inline-block;
+        border-left: 1px solid #ccc;
+        margin: 0 10px;
+        height: 455px;
+    }
+    
+    u{
+        text-decoration-color: #3796DA;
+    }
+    .images{
+        text-align: center;
+        margin-top: 100px;
+        margin: 80px 20px;
+        white-space: nowrap;
+        list-style-type: none;
+    }
+    
+    .images li{
+        display: inline-block;
+        list-style-type: none;
+        width: 5px;
+        margin: 20px 5%;
+        position: relative;
+        margin-left: 25px;
+        right: 9px;
+        left: -254px;
+    }
+    
+    .banner{
+        bottom: 12;
+        position: relative;
+    }
+    
+    .banner_org{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        background-size: 600px 350px;
+        height: 510px;
+        margin-top: -110px;
+        padding-bottom: 590px;
+        max-width: 1440px;
+    }
+    
+    .banner img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+       
+    .service_b{
+        color: #3796DA;
+        padding: 30px;
+        font-size: 50px;
+        position: absolute;
+        left: 1em;
+        top: 150px;
+        font-weight: bold;
+        text-decoration-color: #3796DA;
+        text-underline-offset: 13px;
+        font-family: 'Open Sans';
+    }
+    
     .about_b{
-        left: 273px;
+        color: #3796DA;
+        padding: 30px;
+        font-size: 45px;
+        position: absolute;
+        margin-left: -270px;
+        margin-top: 10px;
+        font-weight: bolder;
+        text-decoration-color: #3796DA;
+        text-underline-offset: 10px;
     }
-    .cameraft{
-        left: -167px;
+    
+    .underline{
+        text-decoration-line: underline;
     }
+    
+    /* .banner_org{
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        margin-top: -90px;
+    } */
+    
+    .button-6 {
+        background-color: #0095ff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-sizing:border-box;
+        width: 202px;
+        height: 50px;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.15385;
+        outline: none;
+        padding: 8px .8em;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+        top: 170px;
+        margin-left: 95px;
+        margin-top: 392px;
+    }
+    
+    .button-7 {
+        background-color: #0095ff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-sizing:border-box;
+        width: 202px;
+        height: 50px;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.15385;
+        outline: none;
+        padding: 8px .8em;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+        top: 970px;
+        margin-left: 43px;
+            }
+    
+    .button-8 {
+        background-color: #0F1E31;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+        margin-left: 16em;
+        /* margin-right: 10em; */
+    }
+    
+    .button-7:hover,
+    .button-7:focus {
+        background-color: #07c;
+    }
+    
+    .button-7:focus {
+        box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    }
+    
+    .button-7:active {
+        background-color: #0064bd;
+        box-shadow: none;
+    }
+    
+    .iconv{
+        margin-left: -90px;
+        width: 1453px;
+        height: 1033px;
+        margin-top: 123px;
+       
+    }
+    
+    
+    .cameo{
+        width: 723px;
+        height: 323px;
+        margin-top: 0px;
+        margin-left: 410px;
+    }
+    
+    .flex-container {
+        display: flex;
+        /* background-color: DodgerBlue; */
+        list-style-type: none;
+        margin-top: 63px;
+        margin-left: 52px;
+        width: 40%;
+    
+    }
+    
+    .colimgs{
+        width: 40%;
+    }
+    
+    .flex-container > div {
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    
+    .border-right {
+        border-right: 1px solid black;
+    }
+    
+    #col1 {
+        background: #3796DA;
+        height: 200px;
+        margin-top: 50px;
+    }
+    
     .csquote{
-        left: 553px;
-        width: 100%;
-        height: auto;
+        position: absolute;
+        margin-left: -474px;
     }
-    #img2 {
-        right: -1223px;
-        width: 413px;
-      }
-    #img3{
-        right: -963px;
-        width: 544px;
-      }
-    .protection{
-        font-size: 12px;
-        width: 86%;
-        margin-top: -34px;
+    
+    .booking{
+        text-align: justify;
+        height: 520px;
+        background: #b7babd;
+        border:#000000;
+        color: black;
+        padding-bottom: 445px;
+        margin-top: 19px;
+        margin-left: 55px;
+        width: 500px;
+        padding: 50px;
+        float: right;
+        padding-top: 18px;
+        margin-right: 57px;
     }
-    .consultant{
-        width: 86%;
-        margin-left: -123px;
-        font-size: 12px;
-        margin-top: 95px;
+    
+    .move{
+        margin-top: -16em;
+        list-style-type: none;
+    
     }
-    .professional{
-        width: 100%;
-        margin-left: -53px;
-        font-size: 12px;
-        margin-top: 60px;
-    }
-}
-/*LAPTOP SCREENS 1280px*/
-@media only screen and (max-width: 1280px){
-    .about_b{
-        margin-left: -223px;
-    }
-    .cameraft{
-        margin-right: 53px;
-    }
-    .fguard{
-        margin-top: 466px;
-    }
-    .guardss{
-        margin-top: 395px;
-        margin-right: -193px;
+    .ftrainer{
+        position: absolute;
+        left: -10px;
+        top: -122px;
+        padding: 0;
+        margin: 0;
+        height: 423px;
+        width: 744px;
     }
     .ysecurity{
-        margin-left: -23px;
+        margin-right: 222px;
+        width: 623px;
+        left: 127px;
+        margin: 0;
+        top: 77px;
+        position: relative;
     }
-    .protection{
-        margin-top: 63px;
+    .mguard{
+        position: absolute;
+        right: 140px;
+        left: 82px;
+        top: -222px;
+        width: 483px;
+        padding: 0;
+        height: 523px;
+        margin: 0;
     }
-    .consultant{
-        width: 91%;
-        margin-left: -183px;
-        margin-top: 90px;
+    
+    .guardss{
+        position: absolute;
+        list-style-type: none;
+        text-align: center;
+        display: block;
+        right: 18em;
+        top: 1350px;
+        height: 570px;
+        object-fit: cover;
     }
-    .professional{
-        margin-top: 80px;
-    }
-    .services{
-        margin-bottom: -83px;
-    }
-    .minor_columns{
-        margin-top: 15px;
-        margin-bottom: 15px;
-        border-spacing:0 5px;
-        width : 30%;
-        height: 190px;
-        background-color: #3796da;
-        color: #3796da;
-        font-weight: 800;
-        font-size: 38px; 
-        padding: 5px;
-        text-align: right;
-        float: left;
-        line-height: 0.9;
+    #foot{
         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
-        background-size: 700px 450px;
-        font-family: "myriad Pro";
+        width: 100%;
+        background-size: 600px 450px;
+        margin-top: 90px;   
+        height: 170px;
     }
-}
-/*MOBILE SCREENS 414px*/
+    
+    .fguard{
+        position: absolute;
+        left: -1em;
+        top: 1325px;
+        height: 524px;
+        object-fit: cover;
+    }
+    
+    .bullets{
+        list-style-type: none;
+    }
+    
+    .border-right{
+        border-right: 1px solid black;
+    }
+    
+    .parag1{
+        margin-top: 30px;
+        margin-left: 3em;
+        margin-right: 5em;
+        font-size: 15px;
+        text-align: justify;
+        font-weight: bolder;
+    }
+    
+    .parag2{
+        margin-top: 30px;
+        font-weight: bolder;
+        margin-left: 3em;
+        margin-right: 5em;
+    }
+    
+    .bluep{
+        color: #3796DA;
+        margin-left: 5em;
+        margin-right: 5em;
+        font-size: 13px;
+    }
+    
+    .blueps{
+        color: #3796DA;
+        margin-left: 5em;
+        margin-right: 5em;
+        font-size: 12px;
+    }
+    
+    .footer{
+        /* position: fixed; */
+        background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+        width: 100%;
+        margin-top: 14.2em;
+        left: 0;
+        bottom: 0;
+        background-size: 600px 450px;
+    }
+    
+    .fut{
+        color: rgb(255, 255, 255);
+        width: 635px;
+        margin-left: 80px;
+        margin-top: -5px;
+       }
+    
+    .services{
+        margin-top: 89px;
+       display: inline-block;
+    }
+    
+    .container2
+            {
+                display:flex;
+                margin-top: 2px;
+                margin-bottom: -650px;
+                width: 800px;
+                text-indent: 12%;
+                justify-content: space-between;
+            }
+            
+     .minor_columns
+            {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                border-spacing:0 5px;
+                width : 100%;
+                height: 190px;
+                background-color: #3796da;
+                color: #3796da;
+                font-weight: 800;
+                font-size: 43px; 
+                padding: 5px;
+                text-align: right;
+                line-height: 0.9;
+                background-image: url("../assets/models/bkg\ partern\ 4.jpg");
+                background-size: 700px 450px;
+                font-family: "myriad Pro";
+             }
+    
+    
+    
+    
+    .img-col1{
+        display: inline-block;
+        width: 173px;
+        height: 250px;
+        padding: 2px;
+        margin-left: -23px;
+        margin-top: 510px;
+        object-fit: cover;
+        position: relative;
+         }
+    
+    .img-col2 {
+        display: inline-block;
+        margin: auto;
+        margin-left: 148px;
+        margin-top: -381px;
+        width: 373px;
+        height: 350px;
+        object-fit: cover;
+        }
+    
+    .img-col3 {
+        display: inline-block;
+        margin: auto;
+        margin-top: -324px; 
+        width: 80px;
+        height: 300px;
+        position: absolute;
+    }
+    #img3{
+        margin-right: 410px;
+    }  
+    .tripple{
+        margin-bottom: 3px;
+    }
+    
+        h1 {
+            font-weight: 300;
+            display: inline-block;
+            padding-bottom: 3px;
+            position: relative;
+            font-family: 'Open Sans';
+            font-weight: bolder;
+            margin-left: 230px;
+        }
+        h1:before{
+            content: "";
+            position: absolute;
+            width: 50%;
+            height: 10px;
+            bottom: 0;
+            left: 2%;
+            border-bottom: 4px solid #3796da ;
+        }
+    
+    .navbar-header{
+        width: 91%;
+        display: inline-block;
+    }
+    
+    .navbar-header2{
+        margin-bottom: -66px;
+        margin-top: 3px;
+        width: 93%;
+    }
+    
+    .services ul{
+        margin-left: 38px;
+        margin-top: -96px;
+        width: 39%;
+        
+    }
+    .protection ul{
+        list-style-position: inside;
+        justify-content: center;
+        margin-top: -83px;
+        margin-left: -9px;
+        width: 34%;
+        position: absolute;
+    }
+    .professional ul {
+        list-style-position: inside;
+        justify-content: center;
+        margin-top: -104px;
+        margin-left: 310px;
+        width: 34%;
+        position: absolute;
+    }
+    
+    .consultant ul{
+        list-style-position: inside;
+        justify-content: center;
+        margin-top: -122px;
+
+        margin-left: 690px;
+        width: 40%;
+        position: absolute;
+    }
+    .footer{
+        margin-top: 505px;
+    }
+
+}/*MOBILE SCREENS 414px*/
 @media only screen and (max-width: 414px){
     .body{
         max-width: 100%;
@@ -1845,10 +2449,7 @@ u{
         text-decoration: underline;
         color: #3796DA;
     }
-    .navbarr{
-        display: none;
-    }
-    .nav1{
+    .navbarr, .nav1{
         display: none;
     }
     .img-responsive {
@@ -1856,14 +2457,12 @@ u{
         width: auto;
         max-height: 72px;
         max-width: 250px;
+        margin-top: -63px;
         
     }
     .images{
         display: none;
     }
-    
-   
-    
     .vertical-line{
         display: inline-block;
         border-left: 1px solid #ccc;
@@ -2029,11 +2628,11 @@ u{
     }
     
     .iconv{
-        margin-left: 343px;
-        width: 1053px;
-        height: 633px;
-        margin-top: 323px;
-       
+        width: 1153px;
+        height: 733px;
+        margin-left:291px;
+        margin-top: 263px;
+        position: absolute;   
     }
     
     .cameraft{
@@ -2073,7 +2672,7 @@ u{
     .csquote{
         position: absolute;
         margin-left: -863px;
-        width: 120px;
+        width: 20px;
         height: 170px;
         margin-top: 5px;
     }
@@ -2145,7 +2744,7 @@ u{
         text-align: center;
         display: block;
         right: 26em;
-        top: 2255px;
+        top: 2213px;
         height: 225px;
         object-fit: cover;
         width: 212px;
