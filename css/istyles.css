@@ -1,5 +1,5 @@
 /*LARGE LAPTOP SCREENS 1920px*/
-@media screen and (max-width: 1920px){
+@media only screen and (max-width: 1920px){
     body {
         max-width: 100%;
         overflow-x: hidden;
@@ -436,6 +436,10 @@
     
     .fut{
         color: white;
+        width: 100%;
+    }
+    #feet{
+        margin-left: 123px;
     }
     
     .services{
@@ -1224,7 +1228,7 @@ u{
 /*LAPTOP SCREENS 1280px*/
 @media only screen and (max-width: 1280px){
     .about_b{
-        margin-left: -223px;
+        margin-left: -243px;
     }
     .cameraft{
         margin-right: 53px;
@@ -1396,7 +1400,7 @@ u{
         padding: 30px;
         font-size: 43px;
         position: absolute;
-        margin-left: 350px;
+        margin-left: -250px;
         margin-top: 60px;
         font-weight: bolder;
         text-decoration-color: #3796DA;
@@ -1620,8 +1624,8 @@ u{
         list-style-type: none;
         text-align: center;
         display: block;
-        right: 25em;
-        top: 890px;
+        right: 25.7em;
+        top: 796px;
         height: 755px;
         object-fit: cover;
     }
@@ -1629,8 +1633,8 @@ u{
     .fguard{
         position: absolute;
         left: 3em;
-        top: 1120px;
-        height: 924px;
+        top: 955px;
+        height: 524px;
         object-fit: cover;
     }
     
@@ -1684,6 +1688,7 @@ u{
     
     .fut{
         color: rgb(255, 255, 255);
+        width: 100%;
     }
     
     .services{
@@ -1821,7 +1826,7 @@ u{
         position: absolute;
     }
     .footer{
-        margin-top: 383px;
+        margin-top: 233px;
     }
 
 }
@@ -1875,14 +1880,31 @@ u{
         max-width: 150px;
         margin-left: -23px;
         margin-bottom: -75px;
-        margin-top: -42px;
+        margin-top: -72px;
     }
-    .nav1{
+    #log{
+        margin-top: 13px;
+    }
+    /* .nav1{
         width: 643px;
         margin-left: 80px;
         margin-bottom: 16px;
         margin-top: -18px;
+    } */
+    .navbarr{
+        width: 643px;
+        margin-left: 80px;
+        margin-bottom: 36px;
+        margin-top: -35px;
     }
+    .cameraft{
+        position: absolute;
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-top: -22px;
+        top: 141x;
+        right: 750px;}
     
     .column {
         font-family: "Myriad Pro";
@@ -1942,7 +1964,7 @@ u{
         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
         background-size: 600px 350px;
         height: 510px;
-        margin-top: -110px;
+        margin-top: -50px;
         padding-bottom: 590px;
         max-width: 1440px;
     }
@@ -2087,8 +2109,7 @@ u{
         margin-left: -90px;
         width: 1453px;
         height: 1033px;
-        margin-top: 123px;
-       
+        margin-top: 73px;
     }
     
     
@@ -2096,7 +2117,7 @@ u{
         width: 723px;
         height: 323px;
         margin-top: 0px;
-        margin-left: 410px;
+        margin-left: 399px;
     }
     
     .flex-container {
@@ -2149,7 +2170,7 @@ u{
         padding-top: 18px;
         margin-right: 57px;
     }
-    
+   
     .move{
         margin-top: -16em;
         list-style-type: none;
@@ -2189,7 +2210,7 @@ u{
         text-align: center;
         display: block;
         right: 18em;
-        top: 1350px;
+        top: 1310px;
         height: 570px;
         object-fit: cover;
     }
@@ -2204,7 +2225,7 @@ u{
     .fguard{
         position: absolute;
         left: -1em;
-        top: 1325px;
+        top: 1284px;
         height: 524px;
         object-fit: cover;
     }
@@ -2257,11 +2278,11 @@ u{
         background-size: 600px 450px;
     }
     
-    .fut{
+    #feet{
         color: rgb(255, 255, 255);
         width: 635px;
         margin-left: 80px;
-        margin-top: -5px;
+        margin-top: -33px;
        }
     
     .services{
@@ -2452,9 +2473,9 @@ u{
     .img-responsive {
         height: auto;
         width: auto;
-        max-height: 72px;
+        max-height: 60px;
         max-width: 250px;
-        margin-top: -63px;
+        margin-top: -82px;
         
     }
     .images{
@@ -2743,7 +2764,7 @@ u{
         text-align: center;
         display: block;
         right: 26em;
-        top: 2213px;
+        top: 2184px;
         height: 225px;
         object-fit: cover;
         width: 212px;
