@@ -242,8 +242,7 @@ div.elem-group.inlined input {
     top: -130px;
     right: -20em;
 }
-
-.cameraft{
+ol1.cameraft{
     position: absolute;
     display: block;
     margin: auto;
@@ -270,7 +269,6 @@ div.elem-group.inlined input {
 .move{
     margin-top: -16em;
     list-style-type: none;
-
 }
 
 .guardss{

@@ -685,7 +685,7 @@ hr {
         width: 300%;
         
     }
-   
+
     .par2{
         float: left;
         position: absolute;
@@ -759,3 +759,27 @@ hr {
     
 }
 /* Add responsiveness - Tablets*/
+.csquote{
+    /* display: none; */
+    position: absolute;
+    margin-top: -17em;
+    list-style-type: none;
+    margin-left: 30%;
+    width: 70%;
+  }
+  .bullets{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    display: inline-block;
+  }
+  .fguard{
+    /* width: 500px; */
+    height: 450px;
+    margin-left: 323px;
+    margin-top: -339px;
+  }
+  .mguard{
+    margin-left: 623px;
+    margin-top: -524px;
+  }
