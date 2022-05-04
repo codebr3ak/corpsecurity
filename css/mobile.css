@@ -1,10 +1,19 @@
 /* START OF HAMBURGER MENU CSS */
+@media  screen and (max-width: 375px) {
+  
+  .mobmenu ul li{
+    list-style:none;
+  }
+  .imagesb{
+    margin-right: -20px;
+  }
+}
+
 @media only screen  and (max-device-width: 414px){
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
   
   body {
     background-color: #ffffff;
-    overflow-x: hidden;
     
   }
   .navbar-brand2{
@@ -28,7 +37,7 @@
     justify-content: space-between;
   }
   
-  .mobile1 {
+  /* .mobile1 {
     list-style: none;
     height: 100%;
     display: flex;
@@ -44,7 +53,7 @@
     padding: 5px;
     margin-left: 10px;
   }
-  
+   */
   /* ul li:hover {
     transform: scale(1.1);
     transition: 0.3s;
@@ -95,7 +104,7 @@
     font-family: "Poppins", sans-serif;
     
   }
-  ul{
+  .mobmenu ul li{
       list-style:none;
   }
   .mobile-menu{
@@ -139,7 +148,7 @@
   }
   
   a:link {
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
     }
     
   }
@@ -148,7 +157,6 @@
       
       body {
         background-color: #ffffff;
-        overflow-x: hidden;
         
       }
       .navbar-brand2{
@@ -242,9 +250,9 @@
         font-family: "Poppins", sans-serif;
         
       }
-      ul{
-          list-style:none;
-      }
+      .mobmenu ul li{
+        list-style:none;
+    }
       .mobile-menu{
           /* background-image: url("../assets/models/bkg\ partern\ 4.jpg");
           background-size: 600px 350px; */
@@ -285,7 +293,7 @@
         }
       }
       a:link {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
       }
       @media only screen and (max-width: 414px) {
       a:link {

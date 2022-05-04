@@ -1,6 +1,6 @@
 
 @media screen  and (max-device-width: 1920px){
-    body {
+    body, html {
         max-width: 100%;
         overflow-x: hidden;
         font-family: 'Open Sans';
@@ -603,7 +603,7 @@
     }
 /*LAPTOP MEDIUM SCREENS 1440px "if device width is greater than or equals to 1440px, then apply the CSS defined in this block."*/
 @media screen  and (max-device-width: 1600px){
-    body {
+    html, body {
         max-width: 100%;
         overflow-x: hidden;
         font-family: 'Open Sans';
@@ -1207,6 +1207,12 @@
     }
     /*LAPTOP MEDIUM SCREENS 1366px ""if device width is greater than or equals to 1366px, then apply the CSS defined in this block.""*/
 @media only screen and (max-width: 1366px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans';
+        font-weight: 900;
+    }
     .img-responsive {
         max-height: 72px;
         max-width: 150px;
@@ -1276,7 +1282,13 @@
        
     }
 @media screen and (max-width: 1440px){
-        .banner_org2{
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans';
+        font-weight: 900;
+    }    
+    .banner_org2{
             width: 50%;
         }
         .banner2 {
@@ -1322,6 +1334,15 @@
             margin-bottom: 13px;
         }
     }
+@media screen and (max-width: 1280px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans';
+        font-weight: 900;
+    }
+    }
+
       /*LAPTOP MEDIUM SCREENS 1024px ""if device width is greater than or equals to 1024px, then apply the CSS defined in this block.""*/
 @media only screen and (max-width: 1024px){
       body {
@@ -1897,12 +1918,7 @@
     } 
     /*LAPTOP MEDIUM SCREENS 768px*/
 @media screen and (max-width: 768px){
-        body {
-            max-width: 100%;
-            overflow-x: hidden;
-            font-family: 'Open Sans';
-            font-weight: 900;
-        }
+   
         .mobmenu{
             display: none;
           }
@@ -2461,7 +2477,7 @@
             width: 173px;
             height: 200px;
             padding: 2px;
-            margin-left: 1010px;
+            margin-left: 980px;
             margin-top: 510px;
             object-fit: cover;
              }
@@ -2470,8 +2486,8 @@
                 display: inline-block;
                 margin: auto;
                 width: 380px;
-                margin-top: -401px;
-                margin-left: 701px;
+                margin-top: -250px;
+                margin-left: 1100px;
                 height: 290px;
                 object-fit: cover;
                  }
@@ -2479,7 +2495,7 @@
                     display: inline-block;
                     margin: auto;
                     width: 260px;
-                    margin-left: 900px;
+                    margin-left: 1600px;
                     margin-top: -381px;
                     height: 200px;
                     object-fit: cover;
@@ -2489,9 +2505,16 @@
             margin-bottom: -673px;
             margin-left: -413px;
         }
+    #img3{
+            margin-left: 1250px;
+            margin-top: -290px;
+        }
     }
         /*LAPTOP MEDIUM SCREENS 414px*/
 @media screen and (max-width: 414px){
+     html {
+    overflow-x: hidden;
+        }
     body {
         max-width: 100%;
         overflow-x: hidden;
