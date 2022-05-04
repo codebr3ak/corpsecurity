@@ -1207,7 +1207,13 @@
     }
     /*LAPTOP MEDIUM SCREENS 1366px ""if device width is greater than or equals to 1366px, then apply the CSS defined in this block.""*/
 @media only screen and (max-width: 1366px){
-        .images1{
+    .img-responsive {
+        max-height: 72px;
+        max-width: 150px;
+        margin-left: 0;
+        margin-bottom: -105px;
+    }    
+    .images1{
             text-align: center;
             margin-top: 10px;
             margin: 80px 20px;
@@ -1224,6 +1230,9 @@
             bottom: 31px;
         } 
        
+        .mobmenu{
+            display: none;
+        }
         .booking{
             width: 443px;
         }
@@ -1264,6 +1273,7 @@
             right: 27px;
             width: 15%;
         }
+       
     }
 @media screen and (max-width: 1440px){
         .banner_org2{
@@ -1276,8 +1286,11 @@
             left: 43px;
         }
         .cameraft{
-            right: 243px;
+            right: 343px;
             bottom: 4px;
+        }
+        .mobmenu{
+            display: none;
         }
         .img-col1{
             margin-left: 622px;
@@ -1310,14 +1323,16 @@
         }
     }
       /*LAPTOP MEDIUM SCREENS 1024px ""if device width is greater than or equals to 1024px, then apply the CSS defined in this block.""*/
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px), (min-width: 1280px){
       body {
             max-width: 100%;
             overflow-x: hidden;
             font-family: 'Open Sans';
             font-weight: 900;
         }
-        
+        .mobmenu{
+            display: none;
+          }
         h1{
             font-family: Open Sans;
                 color: #0f1e31 ;
@@ -1374,7 +1389,7 @@
             max-height: 72px;
             max-width: 150px;
             margin-left: -23px;
-            margin-bottom: -80px;
+            margin-bottom: -105px;
         }
         .nav1{
             width: 100%;
@@ -1888,7 +1903,7 @@
             font-family: 'Open Sans';
             font-weight: 900;
         }
-        .navbar-brand2{
+        .mobmenu{
             display: none;
           }
         h1{
@@ -1915,9 +1930,6 @@
             margin-bottom: -20px;
             margin-top: 22px;
         }
-        .mobmenu{
-    display:none;
-}
         nav ul{
             white-space: nowrap;
             margin: 0 auto;
@@ -1963,7 +1975,7 @@
             position: absolute;
             top: 0px;
             margin-left: 1px;
-            margin-right: -103px;
+            margin-right: -205px;
             list-style-type: none;
             height: 500px;
             width: 500px; 
@@ -1973,7 +1985,7 @@
             max-height: 72px;
             max-width: 150px;
             margin-left: -23px;
-            margin-bottom: -55px;
+            margin-bottom: -105px;
         }
         .nav1{
             width: 663px;
@@ -2449,8 +2461,8 @@
             width: 173px;
             height: 200px;
             padding: 2px;
-            margin-left: 631px;
-            margin-top: 479px;
+            margin-left: 1010px;
+            margin-top: 510px;
             object-fit: cover;
              }
         
@@ -2555,7 +2567,7 @@
     .cameraft{
         position: absolute;
         top: -1px;
-        margin-right: -230px;
+        margin-right: -330px;
         list-style-type: none;
         height: 350px;
         width: 350px; 
@@ -3180,7 +3192,7 @@
     .cameraft{
         position: absolute;
         top: -1px;
-        margin-right: -260px;
+        margin-right: -350px;
         list-style-type: none;
         height: 350px;
         width: 350px; 
@@ -3747,7 +3759,12 @@
     .mobmenu a {
       text-decoration: none;
     }
-    
+    .img-responsive {
+        max-height: 72px;
+        max-width: 150px;
+        margin-left: 0;
+        margin-bottom: -55px;
+    }
     .mobmenu {
       padding: 0 10px;
       background-color: #ffffff;
@@ -3872,7 +3889,7 @@
       }
       
     }
-    @media only screen  and (max-device-width: 360px){
+@media only screen  and (max-device-width: 360px){
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
         
         body {
@@ -3895,7 +3912,13 @@
           justify-content: space-between;
         }
        
-        
+        .img-responsive {
+            max-height: 72px;
+            max-width: 150px;
+            margin-left: 0;
+            margin-bottom: -55px;
+        }
+
         .mobile1 {
           list-style: none;
           height: 100%;
