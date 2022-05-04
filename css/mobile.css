@@ -14,7 +14,7 @@
   
   body {
     background-color: #ffffff;
-    
+    overflow-x: hidden;
   }
   .navbar-brand2{
     display: none;

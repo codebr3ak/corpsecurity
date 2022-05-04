@@ -54,12 +54,15 @@
         text-decoration: underline;
         color: #3796DA;
     }
-    
+    .mobmenu{
+        display: none;
+    }
     .img-responsive {
         max-height: 90px;
         max-width: 190px;
         margin-left: -23px;
         margin-bottom: -80px;
+        margin-top: 40px;
     }
     .nav1{
         width: 120%;
@@ -657,13 +660,17 @@
         text-decoration: underline;
         color: #3796DA;
     }
-    
+    .mobmenu{
+        display: none;
+    }
     .img-responsive {
         max-height: 72px;
         max-width: 150px;
         margin-left: -23px;
         margin-bottom: -80px;
+        margin-top: 40px;
     }
+    
     .nav1{
         width: 100%;
         margin-left: 90px;
@@ -1207,9 +1214,10 @@
     }
     /*LAPTOP MEDIUM SCREENS 1366px ""if device width is greater than or equals to 1366px, then apply the CSS defined in this block.""*/
 @media only screen and (max-width: 1366px){
-    html, body {
+    body {
         max-width: 100%;
         overflow-x: hidden;
+        overflow-y: hidden;
         font-family: 'Open Sans';
         font-weight: 900;
     }
@@ -1218,6 +1226,7 @@
         max-width: 150px;
         margin-left: 0;
         margin-bottom: -105px;
+        margin-top: 40px;
     }    
     .images1{
             text-align: center;
@@ -1298,7 +1307,7 @@
             left: 43px;
         }
         .cameraft{
-            right: 343px;
+            right: 243px;
             bottom: 4px;
         }
         .mobmenu{
@@ -1327,6 +1336,7 @@
             max-width: 150px;
             margin-left: -23px;
             margin-bottom: -80px;
+            margin-top: 40px;
         }
         .nav1{
             width: 100%;
@@ -1340,6 +1350,12 @@
         overflow-x: hidden;
         font-family: 'Open Sans';
         font-weight: 900;
+    }
+    #img3{
+        margin-left: 970px;
+    }
+    .img-responsive{
+        margin-top: 40px;
     }
     }
 
@@ -1740,6 +1756,7 @@
         .fut{
             color: white;
             padding-top: 23px;
+            margin-left: 80px;
         }
         
         button:hover,

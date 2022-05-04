@@ -52,8 +52,14 @@
         max-height: 100px;
         max-width: 250px;
         margin-left: -23px;
-        margin-bottom: -65px;
+        margin-bottom: -120px;
     }
+    .mobmenu{
+        display: none;
+    }
+    .navbar-brand{
+        margin-bottom: 25px;
+        }
     .navbarr, .nav1{
         width: 1500px;
         margin-left: 60px;
@@ -282,7 +288,7 @@
         margin: auto;
         width: 50%;
         margin-top: 0;
-        top: 143px;
+        top: 127px;
         right: 42em;}
     
     .flex-container {
@@ -372,8 +378,8 @@
         list-style-type: none;
         text-align: center;
         display: block;
-        right: 37em;
-        top: 967px;
+        right: 38em;
+        top: 951px;
         height: 615px;
         object-fit: cover;
     }
@@ -381,7 +387,7 @@
     .fguard{
         position: absolute;
         left: 29em;
-        top: 1060px;
+        top: 1041px;
         height: 524px;
         object-fit: cover;
     }
@@ -440,6 +446,7 @@
     }
     #feet{
         margin-left: 123px;
+        margin-bottom: 20px;
     }
     
     .services{
@@ -629,6 +636,18 @@ nav li a:hover{
     margin-left: -23px;
     margin-bottom: -75px;
 }
+.mobmenu{
+    display: none;
+}
+.img-responsive{
+    margin-top: 52px;
+    margin-left: 10px;
+}
+.navbar-brand{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
 .navbarr, .nav1{
     width: 1200px;
     margin-left: 60px;
@@ -857,7 +876,7 @@ u{
     margin: auto;
     width: 50%;
     margin-top: 0;
-    top: 141x;
+    top: 133px;
     right: 42em;}
 
 .flex-container {
@@ -948,7 +967,7 @@ u{
     text-align: center;
     display: block;
     right: 27em;
-    top: 1156px;
+    top: 1122px;
     height: 555px;
     object-fit: cover;
 }
@@ -956,7 +975,7 @@ u{
 .fguard{
     position: absolute;
     left: 20em;
-    top: 1187px;
+    top: 1152px;
     height: 524px;
     object-fit: cover;
 }
@@ -1148,18 +1167,23 @@ u{
 /*LAPTOP SCREENS 1440px*/
 @media only screen and (max-width: 1440px){
     .fguard{
-        margin-left: -33px;
-        margin-top: 101px;;
+        margin-left: 60px;
+        margin-top: 4px;
+        height: 500px;
+        width: 400px;
     }
     .guardss{
-        margin-top: 101px;
-        margin-right: -125px;
+        margin-top: 35px;
+        margin-right: -8px;
+        height: 500px;
+        width: 400px;
     }
     .button-7{
         margin-top: 3px;
     }
     .cameraft{
         right: 713px;
+        top: 133px;
     }
     .consultant{
         margin-left: -62px;
@@ -1172,18 +1196,43 @@ u{
     .footer{
         width: 99%;
     }
+    .mobmenu{
+        display: none;
+    }
+    .img-responsive{
+        margin-top: 52px;
+        margin-left: 10px;
+    }
+    .navbar-brand{
+        margin-bottom: 30px;
+    }
 }
 /*LAPTOP SCREENS 1366px*/
 @media only screen and (max-width: 1366px){
     .fguard{
-        margin-left: -13px;
-        margin-top: 298px;
+        margin-left: 43px;
+        margin-top: 170px;
         height: 453px;
         width: 358px;
     }
     .guardss{
-        margin-top: 227px;
-        margin-right: -102px;
+        margin-top: 153px;
+        margin-right: -32px;
+    } 
+    .cameraft{
+        margin-right: 12px;
+    }
+}
+@media only screen and (max-width: 1360px){
+    .fguard{
+        margin-left: 43px;
+        margin-top: 201px;
+        height: 453px;
+        width: 358px;
+    }
+    .guardss{
+        margin-top: 184px;
+        margin-right: -32px;
     }
     .button-7{
         margin-top: 3px;
@@ -1225,20 +1274,39 @@ u{
         font-size: 12px;
         margin-top: 60px;
     }
+    .img-responsive{
+        margin-top: 62px;
+    }
+    .navbar-brand{
+        margin-bottom: 30px;
+    }
+    .mobmenu{
+        display: none;
+    }
 }
 /*LAPTOP SCREENS 1280px*/
 @media only screen and (max-width: 1280px){
+    html, body{
+        overflow-x: hidden;
+    }
     .about_b{
         margin-left: -243px;
     }
+    .mobmenu{
+        display: none;
+    }
+    .img-responsive{
+        margin-bottom: -125px;
+    }
     .cameraft{
         margin-right: 53px;
+        margin-top: -16px;
     }
     .fguard{
-        margin-top: 466px;
+        margin-top: 408px;
     }
     .guardss{
-        margin-top: 395px;
+        margin-top: 337px;
         margin-right: -193px;
     }
     .ysecurity{
@@ -1279,7 +1347,7 @@ u{
 }
 /*LAPTOP SCREENS 1024px*/
 @media only screen and (max-width: 1024px){
-    .body{
+    body{
         max-width: 100%;
         overflow-x: hidden;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -1321,12 +1389,17 @@ u{
         text-decoration: underline;
         color: #3796DA;
     }
-    
+    .mobmenu{
+        display: none;
+    }
     .img-responsive {
         max-height: 72px;
         max-width: 150px;
         margin-left: -23px;
-        margin-bottom: -75px;
+        margin-bottom: -125px;
+    }
+    .navbar-brand{
+        margin-bottom: 20px;
     }
     .navbarr, .nav1{
         width: 950px;
@@ -1539,9 +1612,10 @@ u{
         display: block;
         margin: auto;
         width: 3%;
-        margin-top: 18px;
+        margin-top: 2px;
         top: 95px;
-        margin-left: -5px;}
+        margin-left: -5px;
+    }
     
     .flex-container {
         display: flex;
@@ -1625,17 +1699,18 @@ u{
         list-style-type: none;
         text-align: center;
         display: block;
-        right: 25.7em;
-        top: 796px;
-        height: 755px;
+        right: 29em;
+        top: 766px;
+        height: 555px;
         object-fit: cover;
     }
     
     .fguard{
         position: absolute;
         left: 3em;
-        top: 955px;
-        height: 524px;
+        top: 82px;
+        height: 424px;
+        margin-top: 1211px;
         object-fit: cover;
     }
     
@@ -1827,13 +1902,16 @@ u{
         position: absolute;
     }
     .footer{
-        margin-top: 385px;
+        margin-top: 100px;
     }
 
 }
 /*TABLET SCREENS 768px*/
 @media only screen and (max-width: 768px){
-    .body{
+   html{
+       overflow-x: hidden;
+   }
+    body{
         max-width: 100%;
         overflow-x: hidden;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -1881,8 +1959,9 @@ u{
         max-width: 150px;
         margin-left: -23px;
         margin-bottom: -75px;
-        margin-top: -72px;
+        margin-top: -5px;
     }
+
     #log{
         margin-top: 13px;
     }
@@ -1898,6 +1977,12 @@ u{
         margin-bottom: 36px;
         margin-top: -35px;
     }
+    .navbar-brand{
+        margin-bottom: 43px;
+    }
+    .mobmenu{
+        display: none;
+    }
 
     .cameraft{
         position: absolute;
@@ -1905,7 +1990,7 @@ u{
         margin: auto;
         width: 100%;
         margin-top: -22px;
-        top: 141x;
+        top: 79px;
         right: 750px;}
     
     .column {
@@ -2211,9 +2296,10 @@ u{
         list-style-type: none;
         text-align: center;
         display: block;
-        right: 18em;
-        top: 1310px;
-        height: 570px;
+        right: 21em;
+        top: 1324px;
+        height: 470px;
+        width: 530px;
         object-fit: cover;
     }
     #foot{
@@ -2227,8 +2313,9 @@ u{
     .fguard{
         position: absolute;
         left: -1em;
-        top: 1284px;
-        height: 524px;
+        top: 1300px;
+        height: 424px;
+        width: 300px;
         object-fit: cover;
     }
     
@@ -2428,7 +2515,11 @@ u{
 
 }/*MOBILE SCREENS 414px*/
 @media only screen and (max-width: 414px){
-    .body{
+    html{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    body{
         max-width: 100%;
         overflow-x: hidden;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -2473,13 +2564,14 @@ u{
     .navbarr, .nav1{
         display: none;
     }
-    .img-responsive {
+    .navbar-brand {
         height: auto;
         width: auto;
         max-height: 60px;
         max-width: 250px;
-        margin-top: -92px;
-        
+        margin-left: 15px;
+        margin-top: 12px;
+         
     }
     #log{
         margin-top: 45px;
@@ -2501,7 +2593,9 @@ u{
     u{
         text-decoration-color: #3796DA;
     }
-    
+    .bannerorg{
+        margin-top: 70px;
+    }
     .banner{
         bottom: 12;
         position: relative;
@@ -2773,7 +2867,7 @@ u{
         text-align: center;
         display: block;
         right: 26em;
-        top: 2184px;
+        top: 2189px;
         height: 225px;
         object-fit: cover;
         width: 212px;
@@ -3079,7 +3173,6 @@ u{
         text-decoration: none;
         color: #0F1E31;
     }
-    
     nav li a:hover{
         text-decoration: underline;
         color: #3796DA;
@@ -3092,8 +3185,7 @@ u{
         width: auto;
         max-height: 60px;
         max-width: 250px;
-        margin-top: -92px;
-        
+        margin-top: -52px;  
     }
     #log{
         margin-top: 45px;
@@ -3104,7 +3196,7 @@ u{
         display: none;
     }
     
-        
+   
     .vertical-line{
         display: inline-block;
         border-left: 1px solid #ccc;
@@ -3120,7 +3212,9 @@ u{
         bottom: 12;
         position: relative;
     }
-    
+    .bannerorg{
+        margin-top: 70px;
+    }
     .banner_org{
         background-image: url("../assets/models/bkg\ partern\ 4.jpg");
         background-size: 600px 350px;
@@ -3223,7 +3317,7 @@ u{
         touch-action: manipulation;
         vertical-align: baseline;
         white-space: nowrap;
-        top: 1818px;
+        top: 2118px;
         margin-left: 43px;
             }
     
@@ -3270,9 +3364,9 @@ u{
     }
     
     .iconv{
-        width: 953px;
+        width: 1053px;
         height: 733px;
-        margin-left:420px;
+        margin-left: 350px;
         margin-top: 263px;
         position: absolute;       
     }
@@ -3391,8 +3485,8 @@ u{
         text-align: center;
         display: block;
         right: 26em;
-        top: 2448px;
-        height: 325px;
+        top: 2360px;
+        height: 250px;
         object-fit: cover;
         width: 212px;
     }
