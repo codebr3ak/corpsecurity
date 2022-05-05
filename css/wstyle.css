@@ -1,6 +1,10 @@
 
 @media screen  and (max-device-width: 1920px){
-    body, html {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    body{
         max-width: 100%;
         overflow-x: hidden;
         font-family: 'Open Sans';
@@ -1214,12 +1218,16 @@
     }
     /*LAPTOP MEDIUM SCREENS 1366px ""if device width is greater than or equals to 1366px, then apply the CSS defined in this block.""*/
 @media only screen and (max-width: 1366px){
-    body {
+    body, html {
         max-width: 100%;
         overflow-x: hidden;
-        overflow-y: hidden;
         font-family: 'Open Sans';
         font-weight: 900;
+    }
+    .cameraft ul{
+        margin-left: -30px;
+        height: 400px;
+        width: 1100px;
     }
     .img-responsive {
         max-height: 72px;
@@ -1354,9 +1362,29 @@
     #img3{
         margin-left: 970px;
     }
+    .container2{
+        margin-right: 5px;
+    }
     .img-responsive{
         margin-top: 40px;
     }
+    .cameraft{
+        margin-right: -120px;
+    }
+    .imagesb{
+        margin-left: 182px;
+        margin-top: 52px;
+    }
+    #img{
+        margin-left: 592px;
+    }
+    #img2{
+        margin-left: 755px;
+    }
+    #img3{
+        margin-left: 950px;
+    }
+   
     }
 
       /*LAPTOP MEDIUM SCREENS 1024px ""if device width is greater than or equals to 1024px, then apply the CSS defined in this block.""*/

@@ -6,7 +6,12 @@
         font-family: 'Open Sans';
         font-weight: 900;
     }
-    
+    .mobmenu{
+        display: none;
+    }
+    #copyright{
+        margin-top: 30px;
+    }
     nav{
         padding: 4px;
         position: sticky;
@@ -113,7 +118,7 @@
     .images1 li{
         height: 577px;
         width: 998px;
-        bottom: 463px;
+        bottom: 473px;
         position: absolute;
         margin-left: 253px;
         }
@@ -474,7 +479,12 @@ body {
     font-family: 'Open Sans';
     font-weight: 900;
 }
-
+#copyright{
+    margin-top: 10px;
+}
+.mobmenu{
+    display: none;
+}
 nav{
     padding: 4px;
     position: sticky;
@@ -590,7 +600,7 @@ div.elem-group.inlined input {
 .images1 li{
     height: 577px;
     width: 998px;
-    bottom: 463px;
+    bottom: 473px;
     position: absolute;
     margin-left: 123px;
     }
@@ -942,12 +952,25 @@ button {
 }
 /*LAPTOP SCREENS 1440px*/
 @media only screen and (max-width: 1440px){
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans';
+        font-weight: 900;
+    }
+
     .images1 li {
         height: 677px;
         width: 998px;
-        bottom: 365px;
+        bottom: 375px;
         position: absolute;
         margin-left: 123px;
+    }
+    .mobmenu{
+        display: none;
+    }
+    #copyright{
+        margin-top: 30px;
     }
 }
 /*LAPTOP SCREENS 1366px*/
@@ -955,7 +978,7 @@ button {
     body {
         max-width: 100%;
         overflow-x: hidden;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'Open Sans';
         font-weight: 900;
     }
     
@@ -1068,7 +1091,7 @@ button {
         height: 577px;
         width: 898px;
         right: 243px;
-        top: 172px;
+        top: 156px;
         margin-left: 123px;
     }
     
@@ -1422,7 +1445,7 @@ button {
     body {
         max-width: 100%;
         overflow-x: hidden;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family:'Open Sans';
         font-weight: 900;
     }
     
@@ -1535,7 +1558,7 @@ button {
         height: 577px;
         width: 898px;
         right: 243px;
-        top: 172px;
+        top: 155px;
         margin-left: 123px;
     }
     
@@ -2001,8 +2024,8 @@ button {
         position: absolute;
         height: 577px;
         width: 898px;
-        right: 143px;
-        top: 105px;
+        right: 243px;
+        top: 155px;
         margin-left: 123px;
     }
     #image{
@@ -2265,7 +2288,7 @@ button {
         color: black;
         padding-bottom: 445px;
         margin-top: -263px;
-        margin-left: 3220px;
+        margin-left: 700px;
         width: 31%;
         border-radius: 8px;
       }
@@ -2361,7 +2384,7 @@ button {
     body {
         max-width: 100%;
         overflow-x: hidden;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'Open Sans';
         font-weight: 900;
     }
     
@@ -2522,7 +2545,7 @@ button {
         max-height: 100%;
     }
     
-    
+    .contact{display: none;}
     
     
     .button-7 {
@@ -2820,7 +2843,7 @@ button {
     body {
         max-width: 100%;
         overflow-x: hidden;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: ;
         font-weight: 900;
     }
     
@@ -2851,6 +2874,9 @@ button {
         text-decoration: none;
         color: #0F1E31;
     }
+    #log{
+        display: none;
+    }
     
     nav li a:hover{
         text-decoration: underline;
@@ -2862,14 +2888,23 @@ button {
     .nav1{
         display: none;
     }
-    
+    .navbar-brand{
+        margin-top: -14px;
+    }
     .img-responsive {
         height: auto;
         width: auto;
         max-height: 72px;
         max-width: 220px;
         object-fit: contain;
-        margin-bottom: -23px;
+        margin-bottom: 43px;
+    }
+    .banner_org{
+        margin-top: 80px;
+    }
+    .mobmenu{
+        margin-bottom: 20px;
+        margin-top: 12px;
     }
     
     .column1 {
@@ -3168,7 +3203,6 @@ button {
     .fut{
         color: white;
         padding-top: 22px;
-        display: none;
     }
     
     

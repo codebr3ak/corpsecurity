@@ -1,5 +1,9 @@
 /*LARGE LAPTOP SCREENS 1920px*/
 @media only screen and (max-width: 1920px){
+    body, html {
+        overflow-x: hidden;
+        width: 100%;
+    }
     body {
         max-width: 100%;
         overflow-x: hidden;
@@ -582,7 +586,11 @@
     }
 /*LAPTOP SCREENS 1600px*/
 @media only screen and (max-width: 1600px){
-body {
+    body, html {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    body {
     max-width: 100%;
     overflow-x: hidden;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -1166,14 +1174,18 @@ u{
 }
 /*LAPTOP SCREENS 1440px*/
 @media only screen and (max-width: 1440px){
+    body, html {
+        overflow-x: hidden;
+        width: 100%;
+    }
     .fguard{
         margin-left: 60px;
-        margin-top: 4px;
+        margin-top: 38px;
         height: 500px;
         width: 400px;
     }
     .guardss{
-        margin-top: 35px;
+        margin-top: 68px;
         margin-right: -8px;
         height: 500px;
         width: 400px;
@@ -1209,6 +1221,32 @@ u{
 }
 /*LAPTOP SCREENS 1366px*/
 @media only screen and (max-width: 1366px){
+   body, html {
+       overflow-x: hidden;
+       width: 100%;
+   }
+   .navbar-header2{
+       margin-top: -100px;
+   }
+   .navbar-brand{
+       margin-top: 10px;
+   }
+   .consultant{
+       margin-left: -120px;
+   }
+   .professional{
+       margin-left: -60px;
+       width: 100%;
+   }
+   .protection{
+       width: 50%;
+   }
+    .img-col2{
+        margin-left: 450px;
+    }
+    .img-col3{
+        margin-left: 850px;
+    }
     .fguard{
         margin-left: 43px;
         margin-top: 170px;
@@ -1285,7 +1323,7 @@ u{
     }
 }
 /*LAPTOP SCREENS 1280px*/
-@media only screen and (max-width: 1280px){
+@media screen and (max-width: 1280px){
     html, body{
         overflow-x: hidden;
     }
@@ -1296,18 +1334,18 @@ u{
         display: none;
     }
     .img-responsive{
-        margin-bottom: -125px;
+        margin-bottom: -85px;
     }
     .cameraft{
         margin-right: 53px;
-        margin-top: -16px;
+        margin-top: -1px;
     }
     .fguard{
-        margin-top: 408px;
+        margin-top: 337px;
     }
     .guardss{
-        margin-top: 337px;
-        margin-right: -193px;
+        margin-top: 320px;
+        margin-right: -123px;
     }
     .ysecurity{
         margin-left: -23px;
@@ -1396,10 +1434,10 @@ u{
         max-height: 72px;
         max-width: 150px;
         margin-left: -23px;
-        margin-bottom: -125px;
+        margin-bottom: -90px;
     }
     .navbar-brand{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     .navbarr, .nav1{
         width: 950px;
@@ -1700,7 +1738,7 @@ u{
         text-align: center;
         display: block;
         right: 29em;
-        top: 766px;
+        top: 845px;
         height: 555px;
         object-fit: cover;
     }
@@ -1897,12 +1935,15 @@ u{
     .consultant ul{
         list-style-position: inside;
         margin-top: -122px;
-        margin-left: 824px;
-        width: 40%;
+        margin-left: 800px;
+        width: 32%;
         position: absolute;
     }
     .footer{
         margin-top: 100px;
+    }
+    #foote{
+        margin-top: 510px;   
     }
 
 }
@@ -1978,7 +2019,7 @@ u{
         margin-top: -35px;
     }
     .navbar-brand{
-        margin-bottom: 43px;
+        margin-bottom: 58px;
     }
     .mobmenu{
         display: none;
@@ -2296,8 +2337,8 @@ u{
         list-style-type: none;
         text-align: center;
         display: block;
-        right: 21em;
-        top: 1324px;
+        right: 15em;
+        top: 1471px;
         height: 470px;
         width: 530px;
         object-fit: cover;
@@ -2313,7 +2354,7 @@ u{
     .fguard{
         position: absolute;
         left: -1em;
-        top: 1300px;
+        top: 625px;
         height: 424px;
         width: 300px;
         object-fit: cover;
@@ -2371,7 +2412,7 @@ u{
         color: rgb(255, 255, 255);
         width: 635px;
         margin-left: 80px;
-        margin-top: -33px;
+        margin-top: -3px;
        }
     
     .services{
@@ -2570,10 +2611,12 @@ u{
         max-height: 60px;
         max-width: 250px;
         margin-left: 15px;
-        margin-top: 12px;
-         
+        margin-top: 0;         
     }
-    #log{
+    .img-responsive{
+        margin-top: -50px;
+        }
+     #log{
         margin-top: 45px;
         margin-left: 12px;
 
@@ -2866,8 +2909,8 @@ u{
         list-style-type: none;
         text-align: center;
         display: block;
-        right: 26em;
-        top: 2189px;
+        right: 22em;
+        top: 2248px;
         height: 225px;
         object-fit: cover;
         width: 212px;
@@ -2929,6 +2972,12 @@ u{
         color: rgb(255, 255, 255);
         display: none;
         }
+
+    #copyright{
+        display: block;
+        margin-top: -20px;
+        color: #828283;
+    }
     
     .services{
         margin-top: 89px;
@@ -3410,7 +3459,7 @@ u{
         margin-left: -863px;
         width: 20px;
         height: 170px;
-        margin-top: 5px;
+        margin-top: -11px;
     }
     
     .booking{
@@ -3484,8 +3533,8 @@ u{
         list-style-type: none;
         text-align: center;
         display: block;
-        right: 26em;
-        top: 2360px;
+        margin-left: -10px;
+        top: 1783px;
         height: 250px;
         object-fit: cover;
         width: 212px;
