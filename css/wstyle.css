@@ -1218,9 +1218,10 @@
     }
     /*LAPTOP MEDIUM SCREENS 1366px ""if device width is greater than or equals to 1366px, then apply the CSS defined in this block.""*/
 @media only screen and (max-width: 1366px){
-    body, html {
+    body {
         max-width: 100%;
         overflow-x: hidden;
+        overflow-y: hidden;
         font-family: 'Open Sans';
         font-weight: 900;
     }
