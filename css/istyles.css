@@ -739,18 +739,6 @@ u{
     left: -15%;
 }
 
-.service_b{
-    color: #3796DA;
-    padding: 30px;
-    font-size: 50px;
-    position: absolute;
-    left: 3em;
-    top: 150px;
-    font-weight: bold;
-    text-decoration-color: #3796DA;
-    text-underline-offset: 13px;
-    font-family: 'Open Sans';
-}
 
 .about_b{
     color: #3796DA;
@@ -873,8 +861,8 @@ u{
 }
 
 .imagesb{
-    flex: right;
     position: absolute;
+    flex: right;
     top: -130px;
     right: -21em;
 }
@@ -1044,7 +1032,7 @@ u{
 
 .services{
     margin-top: 89px;
-   display: inline-block;
+    display: inline-block;
 }
 
 .container2
@@ -1056,7 +1044,12 @@ u{
             padding: 12px;
             justify-content: space-between;
             margin-right: 223px;
+<<<<<<< HEAD
+            
+    
+=======
             width:87%;           
+>>>>>>> origin/master
         }
         
         .minor_columns
@@ -1077,7 +1070,7 @@ u{
             background-image: url("../assets/models/bkg\ partern\ 4.jpg");
             background-size: 700px 450px;
             font-family: "myriad Pro";
-         }
+        }
 
 
 
@@ -1091,7 +1084,7 @@ u{
     height: 400px;
     object-fit: cover;
     position: relative;
-     }
+    }
 
 .img-col2 {
     display: inline-block;
@@ -1101,7 +1094,7 @@ u{
     margin-top: -521px;
     height: 490px;
     object-fit: cover;
-         }
+        }
 
 .img-col3 {
     display: inline-block;
@@ -1110,8 +1103,13 @@ u{
     margin-left: 1010px;
     margin-top: -439px;
     height: 410px;
+<<<<<<< HEAD
+    object-fit: cover;
+        }
+=======
     position: absolute;
           }
+>>>>>>> origin/master
 
 .tripple{
     margin-bottom: 3px;
@@ -3804,3 +3802,11 @@ u{
     }
 
 }
+
+
+/* Add responsiveness - mobile phones */
+@media only screen and (max-width: 480px) {
+    
+}
+
+
